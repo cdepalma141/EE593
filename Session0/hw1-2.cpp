@@ -9,7 +9,7 @@ using namespace std;
 int main() {
 
 
-   long double n, r, d;
+   double n, r, d;
     cin >> n;
     cin >> r;
     d = n-r;

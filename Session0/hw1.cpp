@@ -41,7 +41,7 @@ double choose(double n, double r){
         }
         else {
             a = (n - r);
-            d = r;
+            d = ((r == 0)? n : r);
             for (int i = r - 1; i > 1; i--)
                 d *= i;
         }
@@ -57,13 +57,14 @@ double choose(double n, double r){
     for (int i = n-1; i > a; i--){
         n *= i;
     }
-
-    if (d == 0)
+    if (d == 0){
         d = 1;
-    
+
+    }
     if (n == 0)
         n = 1;
-
+    
+    
     return n/d;
 
 }
@@ -75,11 +76,11 @@ int main() {
 		{1, 0, 1},
 		{1, 1, 1},
 
-		{2, 0, 2},
+		{2, 0, 1},
 		{2, 1, 2},
 		{2, 2, 1},
 		
-		{5, 0, 5},
+		{5, 0, 1},
 		{5, 1, 5},
 		{5, 2, 10},
 
@@ -101,6 +102,10 @@ int main() {
 	cout << choose(52, 6) << "\n";
 	cout << choose(52, 26) << "\n";
 	cout << choose(150, 5) << "\n";
+    cout << choose(500, 250) << "\n";
+    cout << choose(500, 150) << "\n";
+    cout << choose(500, 400) << "\n";
+
 }
 // int main(){
 //     double n, r;
