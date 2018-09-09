@@ -49,6 +49,9 @@ double choose(double n, double r){
         n *= i;
     }
 
+    if (d == 0)
+        d = 1;
+
     return n/d;
 
 }
