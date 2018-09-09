@@ -54,13 +54,15 @@ double choose(double n, double r){
     }
 
 
-
     for (int i = n-1; i > a; i--){
         n *= i;
     }
 
     if (d == 0)
         d = 1;
+    
+    if (n == 0)
+        n = 1;
 
     return n/d;
 
@@ -73,11 +75,11 @@ int main() {
 		{1, 0, 1},
 		{1, 1, 1},
 
-		{2, 0, 1},
+		{2, 0, 2},
 		{2, 1, 2},
 		{2, 2, 1},
 		
-		{5, 0, 1},
+		{5, 0, 5},
 		{5, 1, 5},
 		{5, 2, 10},
 
@@ -89,7 +91,6 @@ int main() {
 		int n = testCases[i][0];
 		int r = testCases[i][1];
 		int result = testCases[i][2];
-		
 		if (choose(n, r) != result) {
 			cerr << "Failed test case: choose(" << n << ", " << r << ") = " << result << '\n';
 		}
