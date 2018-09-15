@@ -65,13 +65,87 @@ CMAKE_SOURCE_DIR = /Users/connordepalma/Documents/Git/EE593/Session0
 CMAKE_BINARY_DIR = /Users/connordepalma/Documents/Git/EE593/Session0/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/test.dir
+
+# All Build rule for target.
+CMakeFiles/test.dir/all:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE593/Session0/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target test"
+.PHONY : CMakeFiles/test.dir/all
+
+# Include target in all.
+all: CMakeFiles/test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE593/Session0/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE593/Session0/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/test.dir/rule
+
+# Convenience name for target.
+test: CMakeFiles/test.dir/rule
+
+.PHONY : test
+
+# clean rule for target.
+CMakeFiles/test.dir/clean:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/clean
+.PHONY : CMakeFiles/test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/HW1b.dir
+
+# All Build rule for target.
+CMakeFiles/HW1b.dir/all:
+	$(MAKE) -f CMakeFiles/HW1b.dir/build.make CMakeFiles/HW1b.dir/depend
+	$(MAKE) -f CMakeFiles/HW1b.dir/build.make CMakeFiles/HW1b.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE593/Session0/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target HW1b"
+.PHONY : CMakeFiles/HW1b.dir/all
+
+# Include target in all.
+all: CMakeFiles/HW1b.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/HW1b.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE593/Session0/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/HW1b.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE593/Session0/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/HW1b.dir/rule
+
+# Convenience name for target.
+HW1b: CMakeFiles/HW1b.dir/rule
+
+.PHONY : HW1b
+
+# clean rule for target.
+CMakeFiles/HW1b.dir/clean:
+	$(MAKE) -f CMakeFiles/HW1b.dir/build.make CMakeFiles/HW1b.dir/clean
+.PHONY : CMakeFiles/HW1b.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/HW1b.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Session0.dir
 
 # All Build rule for target.
 CMakeFiles/Session0.dir/all:
 	$(MAKE) -f CMakeFiles/Session0.dir/build.make CMakeFiles/Session0.dir/depend
 	$(MAKE) -f CMakeFiles/Session0.dir/build.make CMakeFiles/Session0.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE593/Session0/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Session0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE593/Session0/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target Session0"
 .PHONY : CMakeFiles/Session0.dir/all
 
 # Include target in all.
@@ -108,7 +182,7 @@ clean: CMakeFiles/Session0.dir/clean
 CMakeFiles/hw1-2.dir/all:
 	$(MAKE) -f CMakeFiles/hw1-2.dir/build.make CMakeFiles/hw1-2.dir/depend
 	$(MAKE) -f CMakeFiles/hw1-2.dir/build.make CMakeFiles/hw1-2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE593/Session0/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target hw1-2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE593/Session0/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target hw1-2"
 .PHONY : CMakeFiles/hw1-2.dir/all
 
 # Include target in all.
@@ -145,7 +219,7 @@ clean: CMakeFiles/hw1-2.dir/clean
 CMakeFiles/hw1.dir/all:
 	$(MAKE) -f CMakeFiles/hw1.dir/build.make CMakeFiles/hw1.dir/depend
 	$(MAKE) -f CMakeFiles/hw1.dir/build.make CMakeFiles/hw1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE593/Session0/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target hw1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE593/Session0/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target hw1"
 .PHONY : CMakeFiles/hw1.dir/all
 
 # Include target in all.
@@ -182,7 +256,7 @@ clean: CMakeFiles/hw1.dir/clean
 CMakeFiles/fiboR.dir/all:
 	$(MAKE) -f CMakeFiles/fiboR.dir/build.make CMakeFiles/fiboR.dir/depend
 	$(MAKE) -f CMakeFiles/fiboR.dir/build.make CMakeFiles/fiboR.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE593/Session0/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target fiboR"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE593/Session0/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target fiboR"
 .PHONY : CMakeFiles/fiboR.dir/all
 
 # Include target in all.

@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+#=============================================================================
+# Target rules for targets named HW1b
+
+# Build rule for target.
+HW1b: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HW1b
+.PHONY : HW1b
+
+# fast build rule for target.
+HW1b/fast:
+	$(MAKE) -f CMakeFiles/HW1b.dir/build.make CMakeFiles/HW1b.dir/build
+.PHONY : HW1b/fast
+
+#=============================================================================
 # Target rules for targets named Session0
 
 # Build rule for target.
@@ -161,6 +187,33 @@ fiboR: cmake_check_build_system
 fiboR/fast:
 	$(MAKE) -f CMakeFiles/fiboR.dir/build.make CMakeFiles/fiboR.dir/build
 .PHONY : fiboR/fast
+
+HW1b.o: HW1b.cpp.o
+
+.PHONY : HW1b.o
+
+# target to build an object file
+HW1b.cpp.o:
+	$(MAKE) -f CMakeFiles/HW1b.dir/build.make CMakeFiles/HW1b.dir/HW1b.cpp.o
+.PHONY : HW1b.cpp.o
+
+HW1b.i: HW1b.cpp.i
+
+.PHONY : HW1b.i
+
+# target to preprocess a source file
+HW1b.cpp.i:
+	$(MAKE) -f CMakeFiles/HW1b.dir/build.make CMakeFiles/HW1b.dir/HW1b.cpp.i
+.PHONY : HW1b.cpp.i
+
+HW1b.s: HW1b.cpp.s
+
+.PHONY : HW1b.s
+
+# target to generate assembly for a file
+HW1b.cpp.s:
+	$(MAKE) -f CMakeFiles/HW1b.dir/build.make CMakeFiles/HW1b.dir/HW1b.cpp.s
+.PHONY : HW1b.cpp.s
 
 fiboR.o: fiboR.cpp.o
 
@@ -270,6 +323,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Session0.dir/build.make CMakeFiles/Session0.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+test.o: test.cpp.o
+
+.PHONY : test.o
+
+# target to build an object file
+test.cpp.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.o
+.PHONY : test.cpp.o
+
+test.i: test.cpp.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.s
+.PHONY : test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -277,11 +357,16 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... edit_cache"
+	@echo "... test"
+	@echo "... HW1b"
 	@echo "... Session0"
 	@echo "... hw1-2"
 	@echo "... hw1"
-	@echo "... edit_cache"
 	@echo "... fiboR"
+	@echo "... HW1b.o"
+	@echo "... HW1b.i"
+	@echo "... HW1b.s"
 	@echo "... fiboR.o"
 	@echo "... fiboR.i"
 	@echo "... fiboR.s"
@@ -294,6 +379,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

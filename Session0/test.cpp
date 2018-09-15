@@ -1,4 +1,6 @@
-
+//
+// Created by Connor DePalma on 9/15/18.
+//
 
 #include <iostream>
 #include <random>
@@ -6,8 +8,9 @@
 
 using namespace std;
 // 6.5 seconds for choose just returning 0
-//19.7 seconds for 100 mil trials without memoization & non-recursively
-//7.14 seconds for 100 mil trials with memoization and recursive
+//19.7 seconds for 100 mil trials without memoization
+
+
 double choose(int n, int r){
     static double nCr[501][501] = {0};
 
@@ -25,26 +28,21 @@ double choose(int n, int r){
         return nCr[n][r] = 1;
 
     if (nCr[n][r] != 0) {
+        cout << "hey\n";
         return nCr[n][r];
     }
 
     return nCr[n][r] = choose(n-1,r) + choose(n-1,r-1); //based off of fibonacci pattern
 
-//return 0;
+
 
 }
-int main() {
-  int numTrials = 100000000;
-	//  cin >> numTrials;
-	default_random_engine generator;
-	uniform_int_distribution<int> distribution(0,500);	
 
-  for (int i = 0; i < numTrials; i++) {
-		int n = distribution(generator);
-		//cout << n << '\n';
-		uniform_int_distribution<int> rdist(0,n);	
-		int r = rdist(generator);
-		//cout << r << '\n';
-    choose(n,r);
-	}
+int main(){
+    uint64_t n,r;
+
+    cin >> n;
+    cin >> r;
+    cout << setprecision(15);
+    cout << choose(n,r)<< '\n';
 }

@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <iomanip>
+#include <random>
 using namespace std;
 
 /**
@@ -70,41 +71,55 @@ double choose(double n, double r){
 }
 
 int main() {
-	int testCases[][3] = {
-		{0, 0, 1},
-		
-		{1, 0, 1},
-		{1, 1, 1},
+//	int testCases[][3] = {
+//		{0, 0, 1},
+//
+//		{1, 0, 1},
+//		{1, 1, 1},
+//
+//		{2, 0, 1},
+//		{2, 1, 2},
+//		{2, 2, 1},
+//
+//		{5, 0, 1},
+//		{5, 1, 5},
+//		{5, 2, 10},
+//
+//		{6, 3, 20}
+//	};
+//	const int numTestCases = 10;
+//
+//	for (int i = 0; i < numTestCases; i++) {
+//		int n = testCases[i][0];
+//		int r = testCases[i][1];
+//		int result = testCases[i][2];
+//		if (choose(n, r) != result) {
+//			cerr << "Failed test case: choose(" << n << ", " << r << ") = " << result << '\n';
+//		}
+//	}
+//
+//	cout << "Large number tests\n";
+//	cout << setprecision(15);
+//	cout << choose(52, 6) << "\n";
+//	cout << choose(52, 26) << "\n";
+//	cout << choose(150, 5) << "\n";
+//    cout << choose(500, 250) << "\n";
+//    cout << choose(500, 150) << "\n";
+//    cout << choose(500, 400) << "\n";
 
-		{2, 0, 1},
-		{2, 1, 2},
-		{2, 2, 1},
-		
-		{5, 0, 1},
-		{5, 1, 5},
-		{5, 2, 10},
+    int numTrials = 10;
+    //  cin >> numTrials;
+    default_random_engine generator;
+    uniform_int_distribution<int> distribution(0,500);
 
-		{6, 3, 20}
-	};
-	const int numTestCases = 10;
-	
-	for (int i = 0; i < numTestCases; i++) {
-		int n = testCases[i][0];
-		int r = testCases[i][1];
-		int result = testCases[i][2];
-		if (choose(n, r) != result) {
-			cerr << "Failed test case: choose(" << n << ", " << r << ") = " << result << '\n';
-		}
-	}
-
-	cout << "Large number tests\n";
-	cout << setprecision(15);
-	cout << choose(52, 6) << "\n";
-	cout << choose(52, 26) << "\n";
-	cout << choose(150, 5) << "\n";
-    cout << choose(500, 250) << "\n";
-    cout << choose(500, 150) << "\n";
-    cout << choose(500, 400) << "\n";
+    for (int i = 0; i < numTrials; i++) {
+        int n = distribution(generator);
+        cout << n << '\n';
+        uniform_int_distribution<int> rdist(0,n);
+        int r = rdist(generator);
+        cout << r << '\n';
+        cout << choose(n,r) << "\n\n";
+    }
 
 }
 // int main(){

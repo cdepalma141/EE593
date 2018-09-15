@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/connordepalma/Documents/Git/EE593/Session0/hw1.cpp
+/Users/connordepalma/Documents/Git/EE593/Session0/test.cpp
 iostream
 -
-iomanip
--
 random
+-
+iomanip
 -
 
