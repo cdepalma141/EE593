@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Session1 main.cpp)
 add_executable(primes primes.cpp)
+add_executable(main main.cpp)

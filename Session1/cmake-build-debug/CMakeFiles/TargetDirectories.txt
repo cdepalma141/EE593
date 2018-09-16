@@ -1,4 +1,5 @@
 /Users/connordepalma/Documents/Git/EE593/Session1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/connordepalma/Documents/Git/EE593/Session1/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/connordepalma/Documents/Git/EE593/Session1/cmake-build-debug/CMakeFiles/primes.dir
+/Users/connordepalma/Documents/Git/EE593/Session1/cmake-build-debug/CMakeFiles/main.dir
 /Users/connordepalma/Documents/Git/EE593/Session1/cmake-build-debug/CMakeFiles/Session1.dir
