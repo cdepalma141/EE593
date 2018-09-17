@@ -5,7 +5,9 @@
 #include <iostream>
 #include <cmath>
 #include <vector>
-
+//0 to 10 mill very quick
+//100 mill very quick too
+//0 to 1 bill takes minutes not good
 using namespace std;
 
 int ES (uint64_t b) {
@@ -14,19 +16,19 @@ int ES (uint64_t b) {
     vector<bool> bits;
 
     auto c = uint64_t(sqrt(b));
-    cout << c << '\n';
+   // cout << c << '\n';
     bits.assign(b, true);
     bits[0] = false;
     bits[1] = false;
 //
-    for (uint64_t i = 0; i < bits.size(); i++) {
-        cout << bits[i] << '\t';
-
-    }
+//    for (uint64_t i = 0; i < bits.size(); i++) {
+//        cout << bits[i] << '\t';
+//
+//    }
 
     cout << '\n';
 
-    for (uint32_t i = 2; i < b+1 ; i++) {
+    for (uint32_t i = 2; i < c+1 ; i++) {
 
 //        if (i * i > c + 1)
 //            continue;
@@ -44,17 +46,17 @@ int ES (uint64_t b) {
 //    cout << '\n';
 //
 ////
-    for (uint64_t i = 0; i < e.size(); i++) {
-        cout << e[i] << "\t";
-   }
-
-    cout << '\n';
-
-    for (uint64_t i = 0; i < b+1; i++) {
-        cout << bits[i] << "\t";
-    }
-
-    cout << '\n';
+//    for (uint64_t i = 0; i < e.size(); i++) {
+//        cout << e[i] << "\t";
+//   }
+//
+//    cout << '\n';
+//
+//    for (uint64_t i = 0; i < b+1; i++) {
+//        cout << bits[i] << "\t";
+//    }
+//
+//    cout << '\n';
 
 
     for (uint32_t i = 0; i < b; i++) {
@@ -70,5 +72,5 @@ int ES (uint64_t b) {
 }
 
 int main (){
-    cout << ES(1000000);
+    cout << ES(10000000);
 }

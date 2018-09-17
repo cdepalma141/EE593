@@ -3,6 +3,8 @@
 #include <bitset>
 
 using namespace std;
+//0 to a bill is possible but pretty slow
+// faster than with vector like in main2 ?
 
 int ES(int b) {
 
@@ -10,7 +12,7 @@ int ES(int b) {
     bool *Prime = new bool[b + 1];
     int count = 0;
 
-    for (int i = 1; i < b + 1; i++)
+    for (int i = 2; i < b + 1; i++)
         Prime[i] = true;
 
 //    for (int i = 0; i < b + 1; i++) {
@@ -40,6 +42,7 @@ int ES(int b) {
             count++;
     }
 
+
     if (Prime[b])
      return count-1;
 
@@ -51,10 +54,10 @@ int Erastothenes(int a, int b) {
     int c = int(sqrt(b));
     bool *Prime = new bool[b + 1];
     int count = 0;
-    cout << ES(a) << '\n';
+ //   cout << ES(a) << '\n';
     int count2 = ES(a);
 
-    for (int i = 1; i < b + 1; i++)
+    for (int i = 2; i < b + 1; i++)
         Prime[i] = true;
 
 //    for (int i = 0; i < b + 1; i++) {
@@ -83,6 +86,8 @@ int Erastothenes(int a, int b) {
         if (Prime[i])
             count++;
     }
+
+
     return count - count2;
 }
 
