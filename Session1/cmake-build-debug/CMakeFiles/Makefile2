@@ -50,10 +50,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/connordepalma/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = "/Users/connordepalma/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4323.58/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/connordepalma/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
+RM = "/Users/connordepalma/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4323.58/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -65,13 +65,50 @@ CMAKE_SOURCE_DIR = /Users/connordepalma/Documents/Git/EE593/Session1
 CMAKE_BINARY_DIR = /Users/connordepalma/Documents/Git/EE593/Session1/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/main2.dir
+
+# All Build rule for target.
+CMakeFiles/main2.dir/all:
+	$(MAKE) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/depend
+	$(MAKE) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE593/Session1/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target main2"
+.PHONY : CMakeFiles/main2.dir/all
+
+# Include target in all.
+all: CMakeFiles/main2.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/main2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE593/Session1/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/main2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE593/Session1/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/main2.dir/rule
+
+# Convenience name for target.
+main2: CMakeFiles/main2.dir/rule
+
+.PHONY : main2
+
+# clean rule for target.
+CMakeFiles/main2.dir/clean:
+	$(MAKE) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/clean
+.PHONY : CMakeFiles/main2.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/main2.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/primes.dir
 
 # All Build rule for target.
 CMakeFiles/primes.dir/all:
 	$(MAKE) -f CMakeFiles/primes.dir/build.make CMakeFiles/primes.dir/depend
 	$(MAKE) -f CMakeFiles/primes.dir/build.make CMakeFiles/primes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE593/Session1/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target primes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE593/Session1/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target primes"
 .PHONY : CMakeFiles/primes.dir/all
 
 # Include target in all.
