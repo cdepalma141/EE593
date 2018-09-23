@@ -13,7 +13,7 @@
 
 using namespace std;
 
-// ~7.00 seconds for 100 mil trials with memoization and recursive and using -O2
+// ~6.74 seconds for 100 mil trials with memoization and recursive and using -O2
 
 double Choose(int n, int r){
     static double nCr[501][501] = {0};

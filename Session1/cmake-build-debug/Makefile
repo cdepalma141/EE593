@@ -124,6 +124,19 @@ main2/fast:
 .PHONY : main2/fast
 
 #=============================================================================
+# Target rules for targets named HW1a
+
+# Build rule for target.
+HW1a: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HW1a
+.PHONY : HW1a
+
+# fast build rule for target.
+HW1a/fast:
+	$(MAKE) -f CMakeFiles/HW1a.dir/build.make CMakeFiles/HW1a.dir/build
+.PHONY : HW1a/fast
+
+#=============================================================================
 # Target rules for targets named primes
 
 # Build rule for target.
@@ -136,61 +149,32 @@ primes/fast:
 	$(MAKE) -f CMakeFiles/primes.dir/build.make CMakeFiles/primes.dir/build
 .PHONY : primes/fast
 
-#=============================================================================
-# Target rules for targets named main
+HW1a.o: HW1a.cpp.o
 
-# Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 main
-.PHONY : main
-
-# fast build rule for target.
-main/fast:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
-
-#=============================================================================
-# Target rules for targets named Session1
-
-# Build rule for target.
-Session1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Session1
-.PHONY : Session1
-
-# fast build rule for target.
-Session1/fast:
-	$(MAKE) -f CMakeFiles/Session1.dir/build.make CMakeFiles/Session1.dir/build
-.PHONY : Session1/fast
-
-main.o: main.cpp.o
-
-.PHONY : main.o
+.PHONY : HW1a.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
-	$(MAKE) -f CMakeFiles/Session1.dir/build.make CMakeFiles/Session1.dir/main.cpp.o
-.PHONY : main.cpp.o
+HW1a.cpp.o:
+	$(MAKE) -f CMakeFiles/HW1a.dir/build.make CMakeFiles/HW1a.dir/HW1a.cpp.o
+.PHONY : HW1a.cpp.o
 
-main.i: main.cpp.i
+HW1a.i: HW1a.cpp.i
 
-.PHONY : main.i
+.PHONY : HW1a.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
-	$(MAKE) -f CMakeFiles/Session1.dir/build.make CMakeFiles/Session1.dir/main.cpp.i
-.PHONY : main.cpp.i
+HW1a.cpp.i:
+	$(MAKE) -f CMakeFiles/HW1a.dir/build.make CMakeFiles/HW1a.dir/HW1a.cpp.i
+.PHONY : HW1a.cpp.i
 
-main.s: main.cpp.s
+HW1a.s: HW1a.cpp.s
 
-.PHONY : main.s
+.PHONY : HW1a.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
-	$(MAKE) -f CMakeFiles/Session1.dir/build.make CMakeFiles/Session1.dir/main.cpp.s
-.PHONY : main.cpp.s
+HW1a.cpp.s:
+	$(MAKE) -f CMakeFiles/HW1a.dir/build.make CMakeFiles/HW1a.dir/HW1a.cpp.s
+.PHONY : HW1a.cpp.s
 
 main2.o: main2.cpp.o
 
@@ -252,15 +236,14 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... main2"
+	@echo "... HW1a"
+	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... primes"
-	@echo "... main"
-	@echo "... Session1"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... HW1a.o"
+	@echo "... HW1a.i"
+	@echo "... HW1a.s"
 	@echo "... main2.o"
 	@echo "... main2.i"
 	@echo "... main2.s"

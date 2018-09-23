@@ -99,9 +99,9 @@ int ES(uint64_t a, uint64_t b) {
 
 int main() {
     uint64_t a,b;
+    cout << "Enter first number: ";
     cin >> a;
+    cout << "Enter second number: ";
     cin >> b;
-
-    cout << ES(a, b);
-    cout << "\n\n";
+    cout << "There are " << ES(a, b) << " primes between " << a << " and " << b << '\n';
 }
