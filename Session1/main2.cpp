@@ -10,38 +10,53 @@
 //0 to 1 bill takes minutes not good
 using namespace std;
 
-int ES (uint64_t b) {
+int ES (uint64_t a, uint64_t b) {
     int count = 0;
-    vector<int> e;
-    vector<bool> bits;
+    vector<uint8_t > bits;
+    vector<uint8_t> bits1;
 
-    auto c = uint64_t(sqrt(b));
-   // cout << c << '\n';
-    bits.assign(b, true);
-    bits[0] = false;
-    bits[1] = false;
+    auto c = uint64_t(sqrt(b)) + 1;
+
+    bits.assign(c, 1);
+    bits1.assign(b-a+1,1);
+    bits[0] = 0;
+    bits[1] = 0;
 //
-//    for (uint64_t i = 0; i < bits.size(); i++) {
-//        cout << bits[i] << '\t';
+//    for (uint64_t i = 0; i < b-a+1; i++) {
+//        cout << bits1[i] << '\t';
 //
 //    }
 
-    cout << '\n';
+    //cout << '\n';
 
-    for (uint32_t i = 2; i < c+1 ; i++) {
-
-//        if (i * i > c + 1)
-//            continue;
-
+    for (uint64_t i = 2; i < c; i+=1) {
         if (bits[i]) {
-            for (uint32_t j = i * i; j < b + 1; j += i) {
-//cout << j << '\t';
-                bits[j] = false;
-                e.push_back(j);
+            for (uint64_t j = i * i; j < c; j += i) {
+                bits[j] = 0;
             }
         }
     }
 
+//    for (uint64_t i = 0; i < c; i++) {
+//        cout << bits[i] << '\t';
+//
+//    }
+//
+//    cout << '\n';
+
+
+    for (uint64_t i = 2; i < c; i++) {
+        if (bits[i]) {
+            uint64_t start = a/i*i;
+//            if (start < a)
+//                start = i;
+            for (uint64_t j = start; j < b+1; j += i) {
+               if(j-a >= 0 && j-a < b-a+1)
+                bits1[j-a] = 0;
+                //if i is prime test if its divisible by i
+            }
+        }
+    }
 
 //    cout << '\n';
 //
@@ -52,15 +67,15 @@ int ES (uint64_t b) {
 //
 //    cout << '\n';
 //
-//    for (uint64_t i = 0; i < b+1; i++) {
-//        cout << bits[i] << "\t";
+//    for (uint64_t i = 0; i < b-a+1; i++) {
+//        cout << bits1[i] << "\t";
 //    }
 //
 //    cout << '\n';
 
 
-    for (uint32_t i = 0; i < b; i++) {
-        if (bits[i])
+    for (uint32_t i = 0; i < b-a+1; i++) {
+        if (bits1[i])
             count++;
     }
 
@@ -72,5 +87,10 @@ int ES (uint64_t b) {
 }
 
 int main (){
-    cout << ES(10000000);
+    uint64_t   a,b;
+    cin >> a;
+    cin >> b;
+
+    cout << ES(a, b);
+    cout << "\n\n";
 }

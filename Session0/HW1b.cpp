@@ -1,16 +1,26 @@
-
+/*
+ * HW1b - Compute Choose(n,r)
+ *
+ * Connor DePalma.
+ *
+ * I pledge my honor that I have abided by the Stevens Honor System.
+ *
+ */
 
 #include <iostream>
 #include <random>
 #include <iomanip>
 
 using namespace std;
-// 6.5 seconds for choose just returning 0
-//19.7 seconds for 100 mil trials without memoization & non-recursively
-//7.14 seconds for 100 mil trials with memoization and recursive
-double choose(int n, int r){
+
+// ~7.00 seconds for 100 mil trials with memoization and recursive and using -O2
+
+double Choose(int n, int r){
     static double nCr[501][501] = {0};
 
+    if (nCr[n][r] != 0) {
+        return nCr[n][r];
+    }
 
     if (r == 1 || r == n-1)
         return  nCr[n][r] = n;
@@ -24,15 +34,14 @@ double choose(int n, int r){
     if (n==r)
         return nCr[n][r] = 1;
 
-    if (nCr[n][r] != 0) {
-        return nCr[n][r];
-    }
 
-    return nCr[n][r] = choose(n-1,r) + choose(n-1,r-1); //based off of fibonacci pattern
+
+    return nCr[n][r] = Choose(n-1,r) + Choose(n-1,r-1); //based off of fibonacci pattern
 
 //return 0;
 
 }
+
 int main() {
   int numTrials = 100000000;
 	//  cin >> numTrials;
@@ -45,6 +54,6 @@ int main() {
 		uniform_int_distribution<int> rdist(0,n);	
 		int r = rdist(generator);
 		//cout << r << '\n';
-    choose(n,r);
+    Choose(n,r);
 	}
 }
