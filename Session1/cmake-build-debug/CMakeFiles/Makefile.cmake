@@ -50,7 +50,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/HW1a2.dir/DependInfo.cmake"
+  "CMakeFiles/primes.dir/DependInfo.cmake"
+  "CMakeFiles/bitvec2.dir/DependInfo.cmake"
   "CMakeFiles/main2.dir/DependInfo.cmake"
   "CMakeFiles/HW1a.dir/DependInfo.cmake"
-  "CMakeFiles/primes.dir/DependInfo.cmake"
   )

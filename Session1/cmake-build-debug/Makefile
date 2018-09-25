@@ -111,6 +111,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named HW1a2
+
+# Build rule for target.
+HW1a2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HW1a2
+.PHONY : HW1a2
+
+# fast build rule for target.
+HW1a2/fast:
+	$(MAKE) -f CMakeFiles/HW1a2.dir/build.make CMakeFiles/HW1a2.dir/build
+.PHONY : HW1a2/fast
+
+#=============================================================================
+# Target rules for targets named primes
+
+# Build rule for target.
+primes: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 primes
+.PHONY : primes
+
+# fast build rule for target.
+primes/fast:
+	$(MAKE) -f CMakeFiles/primes.dir/build.make CMakeFiles/primes.dir/build
+.PHONY : primes/fast
+
+#=============================================================================
+# Target rules for targets named bitvec2
+
+# Build rule for target.
+bitvec2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bitvec2
+.PHONY : bitvec2
+
+# fast build rule for target.
+bitvec2/fast:
+	$(MAKE) -f CMakeFiles/bitvec2.dir/build.make CMakeFiles/bitvec2.dir/build
+.PHONY : bitvec2/fast
+
+#=============================================================================
 # Target rules for targets named main2
 
 # Build rule for target.
@@ -135,19 +174,6 @@ HW1a: cmake_check_build_system
 HW1a/fast:
 	$(MAKE) -f CMakeFiles/HW1a.dir/build.make CMakeFiles/HW1a.dir/build
 .PHONY : HW1a/fast
-
-#=============================================================================
-# Target rules for targets named primes
-
-# Build rule for target.
-primes: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 primes
-.PHONY : primes
-
-# fast build rule for target.
-primes/fast:
-	$(MAKE) -f CMakeFiles/primes.dir/build.make CMakeFiles/primes.dir/build
-.PHONY : primes/fast
 
 HW1a.o: HW1a.cpp.o
 
@@ -175,6 +201,60 @@ HW1a.s: HW1a.cpp.s
 HW1a.cpp.s:
 	$(MAKE) -f CMakeFiles/HW1a.dir/build.make CMakeFiles/HW1a.dir/HW1a.cpp.s
 .PHONY : HW1a.cpp.s
+
+HW1a2.o: HW1a2.cpp.o
+
+.PHONY : HW1a2.o
+
+# target to build an object file
+HW1a2.cpp.o:
+	$(MAKE) -f CMakeFiles/HW1a2.dir/build.make CMakeFiles/HW1a2.dir/HW1a2.cpp.o
+.PHONY : HW1a2.cpp.o
+
+HW1a2.i: HW1a2.cpp.i
+
+.PHONY : HW1a2.i
+
+# target to preprocess a source file
+HW1a2.cpp.i:
+	$(MAKE) -f CMakeFiles/HW1a2.dir/build.make CMakeFiles/HW1a2.dir/HW1a2.cpp.i
+.PHONY : HW1a2.cpp.i
+
+HW1a2.s: HW1a2.cpp.s
+
+.PHONY : HW1a2.s
+
+# target to generate assembly for a file
+HW1a2.cpp.s:
+	$(MAKE) -f CMakeFiles/HW1a2.dir/build.make CMakeFiles/HW1a2.dir/HW1a2.cpp.s
+.PHONY : HW1a2.cpp.s
+
+bitvec2.o: bitvec2.cpp.o
+
+.PHONY : bitvec2.o
+
+# target to build an object file
+bitvec2.cpp.o:
+	$(MAKE) -f CMakeFiles/bitvec2.dir/build.make CMakeFiles/bitvec2.dir/bitvec2.cpp.o
+.PHONY : bitvec2.cpp.o
+
+bitvec2.i: bitvec2.cpp.i
+
+.PHONY : bitvec2.i
+
+# target to preprocess a source file
+bitvec2.cpp.i:
+	$(MAKE) -f CMakeFiles/bitvec2.dir/build.make CMakeFiles/bitvec2.dir/bitvec2.cpp.i
+.PHONY : bitvec2.cpp.i
+
+bitvec2.s: bitvec2.cpp.s
+
+.PHONY : bitvec2.s
+
+# target to generate assembly for a file
+bitvec2.cpp.s:
+	$(MAKE) -f CMakeFiles/bitvec2.dir/build.make CMakeFiles/bitvec2.dir/bitvec2.cpp.s
+.PHONY : bitvec2.cpp.s
 
 main2.o: main2.cpp.o
 
@@ -236,14 +316,22 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... main2"
-	@echo "... HW1a"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... HW1a2"
 	@echo "... primes"
+	@echo "... bitvec2"
+	@echo "... main2"
+	@echo "... HW1a"
 	@echo "... HW1a.o"
 	@echo "... HW1a.i"
 	@echo "... HW1a.s"
+	@echo "... HW1a2.o"
+	@echo "... HW1a2.i"
+	@echo "... HW1a2.s"
+	@echo "... bitvec2.o"
+	@echo "... bitvec2.i"
+	@echo "... bitvec2.s"
 	@echo "... main2.o"
 	@echo "... main2.i"
 	@echo "... main2.s"

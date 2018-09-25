@@ -11,8 +11,58 @@
 #include <iostream>
 #include <cmath>
 #include <bitset>
-
 using namespace std;
+
+
+class Bitvec {
+
+private:
+    uint64_t size;
+    uint64_t words;
+    uint64_t* bits;
+
+
+public:
+    Bitvec(uint64_t n, bool b) : words((n+63)/64), size(n), bits(new uint64_t[words]){
+        uint64_t val = b ? 0xFFFFFFFFFFFFFFFF :0;
+        for (uint64_t i = 0; i<= words; i++)
+            bits[i] = val;
+    }
+    ~Bitvec() {delete [] bits;}
+    Bitvec(const Bitvec& orig) = delete;
+    Bitvec& operator =(const Bitvec& orig) = delete;
+/*
+00000000000x0000 want x true
+0000000000000001 << pos
+0000000000010000 and with this
+
+
+
+*/
+
+
+    void set( uint64_t i) {
+        bits[i >> 6] |= 1L << (i % 64); //same as i/64 since its right shifting 2^6 and 'anding' with the lower six bits of the 16 bit words is same as i % 64
+    }
+/*
+00000000000x0000 want x false
+1111111111111111 << pos
+1111111111101111 and with this
+
+
+
+*/
+    void clear( uint64_t i) {
+        bits[i/ 64] &= ~(1L << (i % 64));
+
+    }
+
+    bool test(uint64_t i) {
+        return (bits[i / 64] & (1L << (i % 64))) != 0;
+    }
+};
+
+
 /*
  * Tests with -O2:
  *
@@ -36,59 +86,59 @@ using namespace std;
 int ES(uint64_t a, uint64_t b) {
 
     auto c = uint64_t(sqrt(b)) + 1;
-    bool *Prime = new bool[c + 1];
-    bool *Prime1 = new bool[b-a + 1];
-
+    Bitvec Primes(c, true);
+    Bitvec Primes1((b-a+1), true);
+    Primes.clear(0);
+    Primes.clear(1);
     int count = 0;
 
-    for (uint64_t i = 2; i < c; i++)
-        Prime[i] = true;
-
-    for (uint64_t i = 0; i <= b-a; i++)
-        Prime1[i] = true;
 
     for (uint64_t i = 2; i < c; i+=1) {
-        if (Prime[i]) {
+        if (Primes.test(i) == 1) {
             for (uint64_t j = i * i; j < c; j += i) {
-                Prime[j] = false;
+                Primes.clear(j);
             }
         }
     }
 
 //    for (int i = 0; i < c + 1; i++) {
-//        cout << Prime[i] << "\t";
+//        cout << Primes.test(i) << "\t";
 //    }
 //
 //    cout << '\n';
 
     for (uint64_t i = 2; i < c; i++) {
-        if (Prime[i]) {
+        if (Primes.test(i) == 1) {
             uint64_t start = (a)/i*i;
             for (uint64_t j = start; j <= b; j += i) {
                 if(j >= a && (j-a) <= b-a)
-                Prime1[j-a] = false;
+                Primes1.clear(j-a);
             }
         }
     }
 
 //
 //    for (int i = 0; i < b-a+1; i++) {
-//        cout << Prime1[i] << "\t";
+//        cout << Primes1.test(i) << "\t";
 //    }
 //
 //    cout << '\n';
 
-    for (uint64_t i = a; i < c; i++)
-        Prime1[i-a] = Prime[i];
+    for (uint64_t i = a; i < c; i++) {
+       if(Primes.test(i) ==1)
+           Primes1.set(i-a);
+       else if(Primes.test(i) ==0)
+           Primes1.clear(i-a);
+    }
 
 //    for (int i = 0; i < b-a+1; i++) {
-//        cout << Prime1[i] << "\t";
+//        cout << Primes1.test(i) << "\t";
 //    }
 //
 //    cout << '\n';
 
     for (uint64_t i = 0; i <= b-a; i++) {
-        if (Prime1[i])
+        if (Primes1.test(i) == 1)
             count++;
     }
 

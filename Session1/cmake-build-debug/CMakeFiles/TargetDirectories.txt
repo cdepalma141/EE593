@@ -1,5 +1,7 @@
-/Users/connordepalma/Documents/Git/EE593/Session1/cmake-build-debug/CMakeFiles/main2.dir
-/Users/connordepalma/Documents/Git/EE593/Session1/cmake-build-debug/CMakeFiles/HW1a.dir
 /Users/connordepalma/Documents/Git/EE593/Session1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/connordepalma/Documents/Git/EE593/Session1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/connordepalma/Documents/Git/EE593/Session1/cmake-build-debug/CMakeFiles/HW1a2.dir
 /Users/connordepalma/Documents/Git/EE593/Session1/cmake-build-debug/CMakeFiles/primes.dir
+/Users/connordepalma/Documents/Git/EE593/Session1/cmake-build-debug/CMakeFiles/bitvec2.dir
+/Users/connordepalma/Documents/Git/EE593/Session1/cmake-build-debug/CMakeFiles/main2.dir
+/Users/connordepalma/Documents/Git/EE593/Session1/cmake-build-debug/CMakeFiles/HW1a.dir

@@ -16,7 +16,7 @@ private:
 
 public:
     Bitvec(uint32_t n, bool b) : words((n+63)/64), size(n), bits(new uint64_t[words]){
-        uint64_t val = b ? 0xFFFFFFFF :0;
+        uint64_t val = b ? 0xFFFFFFFFFFFFFFFF :0;
         for (uint32_t i = 0; i<= words; i++)
             bits[i] = val;
     }
@@ -34,7 +34,7 @@ public:
 
 
     void set( uint32_t i) {
-        bits[i >> 6] |= 1 << (i & 0x3f); //same as i/64 since its right shifting 2^6 and 'anding' with the lower six bits of the 16 bit words is same as i % 64
+        bits[i >> 6] |= 1L << (i & 0x3f); //same as i/64 since its right shifting 2^6 and 'anding' with the lower six bits of the 16 bit words is same as i % 64
     }
 /*
 00000000000x0000 want x false
@@ -45,12 +45,12 @@ public:
 
 */
     void clear( uint32_t i) {
-        bits[i/ 64] &= ~(1 << (i % 32));
+        bits[i/ 64] &= ~(1L << (i & 0x3f));
 
     }
 
     bool test(uint32_t i) {
-        return (bits[i / 64] & (1 << (i % 32))) != 0;
+        return (bits[i / 64] & (1L << (i & 0x3f))) != 0;
     }
 };
 
