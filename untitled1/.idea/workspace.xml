@@ -36,10 +36,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22bbd117-2fd4-47c1-861a-364b415ab5e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Session1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Session1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Session1/HW1a2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Session1/HW1a2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Session1/cmake-build-debug/CMakeFiles/HW1a2.dir/HW1a2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Session1/cmake-build-debug/CMakeFiles/HW1a2.dir/HW1a2.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Session1/cmake-build-debug/HW1a2" beforeDir="false" afterPath="$PROJECT_DIR$/../Session1/cmake-build-debug/HW1a2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Session5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Session5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GROWWW.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GROWWW.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GROWWW.dir/GROWWW.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GROWWW.dir/GROWWW.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/GROWWW" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/GROWWW" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,14 +63,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="6939" />
+          <entry key="cpp" value="7604" />
           <entry key="txt" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="17" />
-          <entry key="ObjectiveC" value="6939" />
+          <entry key="ObjectiveC" value="7604" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -107,8 +108,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GROWWW.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2083">
-              <caret line="176" column="34" selection-start-line="176" selection-start-column="34" selection-end-line="176" selection-end-column="34" />
+            <state relative-caret-position="167">
+              <caret line="212" lean-forward="true" selection-start-line="212" selection-end-line="212" />
               <folding>
                 <element signature="e#48#67#0" expanded="true" />
               </folding>
@@ -263,12 +264,12 @@
       <workItem from="1538527995467" duration="8957000" />
       <workItem from="1538691115669" duration="278000" />
       <workItem from="1539120719040" duration="1619000" />
-      <workItem from="1539213791058" duration="23596000" />
+      <workItem from="1539213791058" duration="27512000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34450000" />
+    <option name="totallyTimeSpent" value="38366000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -279,7 +280,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.527551" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44183674" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -337,8 +338,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GROWWW.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2083">
-          <caret line="176" column="34" selection-start-line="176" selection-start-column="34" selection-end-line="176" selection-end-column="34" />
+        <state relative-caret-position="167">
+          <caret line="212" lean-forward="true" selection-start-line="212" selection-end-line="212" />
           <folding>
             <element signature="e#48#67#0" expanded="true" />
           </folding>

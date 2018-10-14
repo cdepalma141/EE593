@@ -94,15 +94,15 @@ private:
         }
 
 
-        void insertStart(double a, double b){
-            checkGrow();
-            for(int i = used + 1; i > 0; i--)
-                p[i] = p[i-1];
-            p[0]= new Point (a,b);
-//            p[0].y = b;
-            used++;
-
-        }
+//        void insertStart(double a, double b){
+//            checkGrow();
+//            for(int i = used + 1; i > 0; i--)
+//                p[i] = p[i-1];
+//            p[0]= new Point (a,b);
+//           p[0].y = b;
+//            used++;
+//
+//        }
 
         void insertEnd(double a, double b){
             checkGrow();
@@ -112,16 +112,16 @@ private:
             findmaxmin(a, b);
         }
 
-        void removeStart(){
-            for(int i = 0; i < used -1; i++)
-                p[i] = p[i+1];
-            used--;
-
-        }
-
-        void removeEnd(){
-            used--;
-        }
+//        void removeStart(){
+//            for(int i = 0; i < used -1; i++)
+//                p[i] = p[i+1];
+//            used--;
+//
+//        }
+//
+//        void removeEnd(){
+//            used--;
+//        }
 
 //        void Insert(int pos, int a, int b){
 //            Point* temp = p;
@@ -176,7 +176,7 @@ private:
             for(int i = 0; i < used; i++)
                 cout << *p[i] << '|';
             if(used == 0)
-                cout << "-";
+                cout << "\t-\t";
         }
 
         friend ostream& operator <<(ostream& s, const List& b) {
@@ -211,66 +211,88 @@ public:
     }
 
 
-    ~Convex(){}
+    ~Convex(){
+        for (int i = 0; i < size; i++) {
+            for(int j = 0; j < size; j++)
+                delete hull[i][j];
+        };
+
+        for (int i = 0; i < size; i++) {
+                delete[] hull[i];
+        };
+
+        delete[] hull;
+
+    }
+
+    int getCount(const string& s) {
+        int count = 0;
+        ifstream f(s);
+        char a;
+        string linebuffer;
+        while (getline(f, linebuffer)){
+            if(linebuffer.length() != 0)
+                count++;
+        }
+        return count;
+
+    }
 
 
     void read(const string& s) {
         double x;
         double y;
-//        double* a = nullptr;
-//        double* b = nullptr;
-        double a[100];
-        double b[100];
+        int c = getCount(s);
+        double a[c];
+        double b[c];
 
-        int c = 0;
         int count = 0;
         ifstream f(s);
         string linebuffer;
-        while(!f.eof()) {
+        while(getline(f, linebuffer)) {
+            if(linebuffer.length() != 0) {
 
-            getline(f, linebuffer);
-            istringstream line(linebuffer);
-            line >> x >> y;
-
-
+                istringstream line(linebuffer);
+                line >> x >> y;
 
 
+                if (x < xmin)
+                    xmin = x;
 
-            if(x < xmin)
-                xmin = x;
+                if (y < ymin)
+                    ymin = y;
 
-            if (y < ymin)
-                ymin = y;
+                if (x > xmax) {
+                    xmax = x;
+                }
 
-            if(x > xmax) {
-                xmax = x;
+                if (y > ymax) {
+                    ymax = y;
+                }
+
+
+                a[count] = x;
+                b[count] = y;
+
+                count++;
+
             }
-
-            if(y > ymax) {
-                ymax = y;
-            }
-
-
-            a[count] = x;
-            b[count] = y;
-
-            count++;
-
-
         }
         cout << xmax << ' ' << ymax;
         cout << '\n';
         cout << xmin << ' ' << ymin;
         cout << '\n';
         cout << '\n';
-        cout << '\n';
         for(int i = 0; i < count; i++)
             cout << a[i] << ' ' << b[i] << '\n';
         cout << '\n';
+        cout << '\n';
+
 
         for(int i = 0; i < count; i++) {
-            int yval = int(round((b[i]-ymin)/(ymax-ymin)))*size;
-            int xval = int(round((a[i]-xmin)/(xmax-xmin)))*size;
+            int yval = int(((b[i]-ymin)/(ymax-ymin))*size);
+            int xval = int(((a[i]-xmin)/(xmax-xmin))*size);
+           // cout << xval << ' '<< yval << '\n';
             if(yval >= size)
                 yval = size-1;
             if(xval >= size)
@@ -279,7 +301,7 @@ public:
             hull[yval][xval]->insertEnd(a[i],b[i]);
         }
 
-//
+
 
 
     }
@@ -315,8 +337,11 @@ public:
                     hull[i][j]->getList();
                 else if (j == 0)
                     hull[i][j]->getList();
+                else if (j == size-1)
+                    hull[i][j]->getList();
                 else
-                    hull[i][j]->getList();            }
+                    cout << "\t-\t";
+            }
             cout << "\n";
         }
     }
@@ -347,31 +372,3 @@ int main() {
        +----+-----+-----+----+
      */
 }
-
-//int main() {
-//    Convex::List b;
-//   Convex::List c(100);
-//
-//    for(int i = 0; i < 10; i++)
-//        b.insertEnd(i, 11);
-//    Convex::List a = b;// 1+2+3+4+5+.....+n   //O(n^2)
-//
-////    for(int i = 0; i < 10; i++)
-////        b.insertStart(i, 3); // 1+2+3+4+5+.....+n   //O(n^2)
-////    cout << b << '\n';
-////    c = b;
-////    for(int i = 0; i < 10; i++)
-////        b.removeStart();
-////    b.removeEnd();
-////    b.removeStart();
-//
-//
-////    b.Insert(3, 7 , 2);
-////    b.Insert(2, 78 , 4);
-//    cout << b << '\n';
-////    cout << a << '\n';
-////    cout << c << '\n';
-//    cout << b.sizeList() << '\n';
-//    b.getmaxmin();
-//
-//}
