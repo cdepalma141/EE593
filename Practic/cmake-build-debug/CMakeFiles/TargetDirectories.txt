@@ -1,0 +1,3 @@
+/Users/connordepalma/Documents/Git/EE593/Practic/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/connordepalma/Documents/Git/EE593/Practic/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/connordepalma/Documents/Git/EE593/Practic/cmake-build-debug/CMakeFiles/Practic.dir

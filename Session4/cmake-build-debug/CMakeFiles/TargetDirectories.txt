@@ -1,0 +1,5 @@
+/Users/connordepalma/Documents/Git/EE593/Session4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/connordepalma/Documents/Git/EE593/Session4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/connordepalma/Documents/Git/EE593/Session4/cmake-build-debug/CMakeFiles/badGrowArray.dir
+/Users/connordepalma/Documents/Git/EE593/Session4/cmake-build-debug/CMakeFiles/GrowArrayHW.dir
+/Users/connordepalma/Documents/Git/EE593/Session4/cmake-build-debug/CMakeFiles/Session4.dir
