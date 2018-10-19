@@ -41,7 +41,7 @@ public:
             head = temp;
         }
         else {
-            delete head;
+            delete tail;
             head = tail = new Node(v, nullptr, nullptr);
         }
     }

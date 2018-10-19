@@ -33,16 +33,22 @@ public:
     }
 
     void insert(int pos, int v){ //O(n)
-        int* old = p;
-        p = new int[size + 1];
+//        int* old = p;
+//        p = new int[size + 1];
+//
+//        for(int i = 0; i < pos; i++) //O(n) together
+//            p[i] = old[i];
+//        p[pos] = v;
+//        for(int i = pos + 1; i <= size; i++) //O(n)
+//            p[i] = old[i-1];
+//        size++;
+//        delete [] old;
 
-        for(int i = 0; i < pos; i++) //O(n) together
-            p[i] = old[i];
+        for(int i = size+1; i > pos; i--)
+            p[i] = p[i-1];
         p[pos] = v;
-        for(int i = pos + 1; i <= size; i++) //O(n)
-            p[i] = old[i-1];
         size++;
-        delete [] old;
+
     }
 
     void removeStart() {
@@ -76,6 +82,6 @@ int main() {
 //    for(int i = 0; i < 10; i++)
 //        b.removeEnd();
 //    b.removeEnd();
-    b.insert(4,8);
+    b.insert(9,9);
     cout << b << '\n';
 }

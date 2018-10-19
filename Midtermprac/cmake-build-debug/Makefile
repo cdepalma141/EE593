@@ -111,6 +111,175 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named linkedlist
+
+# Build rule for target.
+linkedlist: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 linkedlist
+.PHONY : linkedlist
+
+# fast build rule for target.
+linkedlist/fast:
+	$(MAKE) -f CMakeFiles/linkedlist.dir/build.make CMakeFiles/linkedlist.dir/build
+.PHONY : linkedlist/fast
+
+#=============================================================================
+# Target rules for targets named binarysearch
+
+# Build rule for target.
+binarysearch: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 binarysearch
+.PHONY : binarysearch
+
+# fast build rule for target.
+binarysearch/fast:
+	$(MAKE) -f CMakeFiles/binarysearch.dir/build.make CMakeFiles/binarysearch.dir/build
+.PHONY : binarysearch/fast
+
+#=============================================================================
+# Target rules for targets named merge
+
+# Build rule for target.
+merge: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 merge
+.PHONY : merge
+
+# fast build rule for target.
+merge/fast:
+	$(MAKE) -f CMakeFiles/merge.dir/build.make CMakeFiles/merge.dir/build
+.PHONY : merge/fast
+
+#=============================================================================
+# Target rules for targets named ES
+
+# Build rule for target.
+ES: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ES
+.PHONY : ES
+
+# fast build rule for target.
+ES/fast:
+	$(MAKE) -f CMakeFiles/ES.dir/build.make CMakeFiles/ES.dir/build
+.PHONY : ES/fast
+
+#=============================================================================
+# Target rules for targets named fibo
+
+# Build rule for target.
+fibo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fibo
+.PHONY : fibo
+
+# fast build rule for target.
+fibo/fast:
+	$(MAKE) -f CMakeFiles/fibo.dir/build.make CMakeFiles/fibo.dir/build
+.PHONY : fibo/fast
+
+#=============================================================================
+# Target rules for targets named LLhnp
+
+# Build rule for target.
+LLhnp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 LLhnp
+.PHONY : LLhnp
+
+# fast build rule for target.
+LLhnp/fast:
+	$(MAKE) -f CMakeFiles/LLhnp.dir/build.make CMakeFiles/LLhnp.dir/build
+.PHONY : LLhnp/fast
+
+#=============================================================================
+# Target rules for targets named LLht
+
+# Build rule for target.
+LLht: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 LLht
+.PHONY : LLht
+
+# fast build rule for target.
+LLht/fast:
+	$(MAKE) -f CMakeFiles/LLht.dir/build.make CMakeFiles/LLht.dir/build
+.PHONY : LLht/fast
+
+#=============================================================================
+# Target rules for targets named LLprac
+
+# Build rule for target.
+LLprac: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 LLprac
+.PHONY : LLprac
+
+# fast build rule for target.
+LLprac/fast:
+	$(MAKE) -f CMakeFiles/LLprac.dir/build.make CMakeFiles/LLprac.dir/build
+.PHONY : LLprac/fast
+
+#=============================================================================
+# Target rules for targets named heap
+
+# Build rule for target.
+heap: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 heap
+.PHONY : heap
+
+# fast build rule for target.
+heap/fast:
+	$(MAKE) -f CMakeFiles/heap.dir/build.make CMakeFiles/heap.dir/build
+.PHONY : heap/fast
+
+#=============================================================================
+# Target rules for targets named bisection
+
+# Build rule for target.
+bisection: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bisection
+.PHONY : bisection
+
+# fast build rule for target.
+bisection/fast:
+	$(MAKE) -f CMakeFiles/bisection.dir/build.make CMakeFiles/bisection.dir/build
+.PHONY : bisection/fast
+
+#=============================================================================
+# Target rules for targets named shuffle
+
+# Build rule for target.
+shuffle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 shuffle
+.PHONY : shuffle
+
+# fast build rule for target.
+shuffle/fast:
+	$(MAKE) -f CMakeFiles/shuffle.dir/build.make CMakeFiles/shuffle.dir/build
+.PHONY : shuffle/fast
+
+#=============================================================================
+# Target rules for targets named insertionsort
+
+# Build rule for target.
+insertionsort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 insertionsort
+.PHONY : insertionsort
+
+# fast build rule for target.
+insertionsort/fast:
+	$(MAKE) -f CMakeFiles/insertionsort.dir/build.make CMakeFiles/insertionsort.dir/build
+.PHONY : insertionsort/fast
+
+#=============================================================================
+# Target rules for targets named gcd
+
+# Build rule for target.
+gcd: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gcd
+.PHONY : gcd
+
+# fast build rule for target.
+gcd/fast:
+	$(MAKE) -f CMakeFiles/gcd.dir/build.make CMakeFiles/gcd.dir/build
+.PHONY : gcd/fast
+
+#=============================================================================
 # Target rules for targets named stack
 
 # Build rule for target.
@@ -176,6 +345,303 @@ DoubleLLtemplated.cpp.s:
 	$(MAKE) -f CMakeFiles/DoubleLLtemplated.dir/build.make CMakeFiles/DoubleLLtemplated.dir/DoubleLLtemplated.cpp.s
 .PHONY : DoubleLLtemplated.cpp.s
 
+ES.o: ES.cpp.o
+
+.PHONY : ES.o
+
+# target to build an object file
+ES.cpp.o:
+	$(MAKE) -f CMakeFiles/ES.dir/build.make CMakeFiles/ES.dir/ES.cpp.o
+.PHONY : ES.cpp.o
+
+ES.i: ES.cpp.i
+
+.PHONY : ES.i
+
+# target to preprocess a source file
+ES.cpp.i:
+	$(MAKE) -f CMakeFiles/ES.dir/build.make CMakeFiles/ES.dir/ES.cpp.i
+.PHONY : ES.cpp.i
+
+ES.s: ES.cpp.s
+
+.PHONY : ES.s
+
+# target to generate assembly for a file
+ES.cpp.s:
+	$(MAKE) -f CMakeFiles/ES.dir/build.make CMakeFiles/ES.dir/ES.cpp.s
+.PHONY : ES.cpp.s
+
+LLhnp.o: LLhnp.cpp.o
+
+.PHONY : LLhnp.o
+
+# target to build an object file
+LLhnp.cpp.o:
+	$(MAKE) -f CMakeFiles/LLhnp.dir/build.make CMakeFiles/LLhnp.dir/LLhnp.cpp.o
+.PHONY : LLhnp.cpp.o
+
+LLhnp.i: LLhnp.cpp.i
+
+.PHONY : LLhnp.i
+
+# target to preprocess a source file
+LLhnp.cpp.i:
+	$(MAKE) -f CMakeFiles/LLhnp.dir/build.make CMakeFiles/LLhnp.dir/LLhnp.cpp.i
+.PHONY : LLhnp.cpp.i
+
+LLhnp.s: LLhnp.cpp.s
+
+.PHONY : LLhnp.s
+
+# target to generate assembly for a file
+LLhnp.cpp.s:
+	$(MAKE) -f CMakeFiles/LLhnp.dir/build.make CMakeFiles/LLhnp.dir/LLhnp.cpp.s
+.PHONY : LLhnp.cpp.s
+
+LLht.o: LLht.cpp.o
+
+.PHONY : LLht.o
+
+# target to build an object file
+LLht.cpp.o:
+	$(MAKE) -f CMakeFiles/LLht.dir/build.make CMakeFiles/LLht.dir/LLht.cpp.o
+.PHONY : LLht.cpp.o
+
+LLht.i: LLht.cpp.i
+
+.PHONY : LLht.i
+
+# target to preprocess a source file
+LLht.cpp.i:
+	$(MAKE) -f CMakeFiles/LLht.dir/build.make CMakeFiles/LLht.dir/LLht.cpp.i
+.PHONY : LLht.cpp.i
+
+LLht.s: LLht.cpp.s
+
+.PHONY : LLht.s
+
+# target to generate assembly for a file
+LLht.cpp.s:
+	$(MAKE) -f CMakeFiles/LLht.dir/build.make CMakeFiles/LLht.dir/LLht.cpp.s
+.PHONY : LLht.cpp.s
+
+LLprac.o: LLprac.cpp.o
+
+.PHONY : LLprac.o
+
+# target to build an object file
+LLprac.cpp.o:
+	$(MAKE) -f CMakeFiles/LLprac.dir/build.make CMakeFiles/LLprac.dir/LLprac.cpp.o
+.PHONY : LLprac.cpp.o
+
+LLprac.i: LLprac.cpp.i
+
+.PHONY : LLprac.i
+
+# target to preprocess a source file
+LLprac.cpp.i:
+	$(MAKE) -f CMakeFiles/LLprac.dir/build.make CMakeFiles/LLprac.dir/LLprac.cpp.i
+.PHONY : LLprac.cpp.i
+
+LLprac.s: LLprac.cpp.s
+
+.PHONY : LLprac.s
+
+# target to generate assembly for a file
+LLprac.cpp.s:
+	$(MAKE) -f CMakeFiles/LLprac.dir/build.make CMakeFiles/LLprac.dir/LLprac.cpp.s
+.PHONY : LLprac.cpp.s
+
+binarysearch.o: binarysearch.cpp.o
+
+.PHONY : binarysearch.o
+
+# target to build an object file
+binarysearch.cpp.o:
+	$(MAKE) -f CMakeFiles/binarysearch.dir/build.make CMakeFiles/binarysearch.dir/binarysearch.cpp.o
+.PHONY : binarysearch.cpp.o
+
+binarysearch.i: binarysearch.cpp.i
+
+.PHONY : binarysearch.i
+
+# target to preprocess a source file
+binarysearch.cpp.i:
+	$(MAKE) -f CMakeFiles/binarysearch.dir/build.make CMakeFiles/binarysearch.dir/binarysearch.cpp.i
+.PHONY : binarysearch.cpp.i
+
+binarysearch.s: binarysearch.cpp.s
+
+.PHONY : binarysearch.s
+
+# target to generate assembly for a file
+binarysearch.cpp.s:
+	$(MAKE) -f CMakeFiles/binarysearch.dir/build.make CMakeFiles/binarysearch.dir/binarysearch.cpp.s
+.PHONY : binarysearch.cpp.s
+
+bisection.o: bisection.cpp.o
+
+.PHONY : bisection.o
+
+# target to build an object file
+bisection.cpp.o:
+	$(MAKE) -f CMakeFiles/bisection.dir/build.make CMakeFiles/bisection.dir/bisection.cpp.o
+.PHONY : bisection.cpp.o
+
+bisection.i: bisection.cpp.i
+
+.PHONY : bisection.i
+
+# target to preprocess a source file
+bisection.cpp.i:
+	$(MAKE) -f CMakeFiles/bisection.dir/build.make CMakeFiles/bisection.dir/bisection.cpp.i
+.PHONY : bisection.cpp.i
+
+bisection.s: bisection.cpp.s
+
+.PHONY : bisection.s
+
+# target to generate assembly for a file
+bisection.cpp.s:
+	$(MAKE) -f CMakeFiles/bisection.dir/build.make CMakeFiles/bisection.dir/bisection.cpp.s
+.PHONY : bisection.cpp.s
+
+fibo.o: fibo.cpp.o
+
+.PHONY : fibo.o
+
+# target to build an object file
+fibo.cpp.o:
+	$(MAKE) -f CMakeFiles/fibo.dir/build.make CMakeFiles/fibo.dir/fibo.cpp.o
+.PHONY : fibo.cpp.o
+
+fibo.i: fibo.cpp.i
+
+.PHONY : fibo.i
+
+# target to preprocess a source file
+fibo.cpp.i:
+	$(MAKE) -f CMakeFiles/fibo.dir/build.make CMakeFiles/fibo.dir/fibo.cpp.i
+.PHONY : fibo.cpp.i
+
+fibo.s: fibo.cpp.s
+
+.PHONY : fibo.s
+
+# target to generate assembly for a file
+fibo.cpp.s:
+	$(MAKE) -f CMakeFiles/fibo.dir/build.make CMakeFiles/fibo.dir/fibo.cpp.s
+.PHONY : fibo.cpp.s
+
+gcd.o: gcd.cpp.o
+
+.PHONY : gcd.o
+
+# target to build an object file
+gcd.cpp.o:
+	$(MAKE) -f CMakeFiles/gcd.dir/build.make CMakeFiles/gcd.dir/gcd.cpp.o
+.PHONY : gcd.cpp.o
+
+gcd.i: gcd.cpp.i
+
+.PHONY : gcd.i
+
+# target to preprocess a source file
+gcd.cpp.i:
+	$(MAKE) -f CMakeFiles/gcd.dir/build.make CMakeFiles/gcd.dir/gcd.cpp.i
+.PHONY : gcd.cpp.i
+
+gcd.s: gcd.cpp.s
+
+.PHONY : gcd.s
+
+# target to generate assembly for a file
+gcd.cpp.s:
+	$(MAKE) -f CMakeFiles/gcd.dir/build.make CMakeFiles/gcd.dir/gcd.cpp.s
+.PHONY : gcd.cpp.s
+
+heap.o: heap.cpp.o
+
+.PHONY : heap.o
+
+# target to build an object file
+heap.cpp.o:
+	$(MAKE) -f CMakeFiles/heap.dir/build.make CMakeFiles/heap.dir/heap.cpp.o
+.PHONY : heap.cpp.o
+
+heap.i: heap.cpp.i
+
+.PHONY : heap.i
+
+# target to preprocess a source file
+heap.cpp.i:
+	$(MAKE) -f CMakeFiles/heap.dir/build.make CMakeFiles/heap.dir/heap.cpp.i
+.PHONY : heap.cpp.i
+
+heap.s: heap.cpp.s
+
+.PHONY : heap.s
+
+# target to generate assembly for a file
+heap.cpp.s:
+	$(MAKE) -f CMakeFiles/heap.dir/build.make CMakeFiles/heap.dir/heap.cpp.s
+.PHONY : heap.cpp.s
+
+insertionsort.o: insertionsort.cpp.o
+
+.PHONY : insertionsort.o
+
+# target to build an object file
+insertionsort.cpp.o:
+	$(MAKE) -f CMakeFiles/insertionsort.dir/build.make CMakeFiles/insertionsort.dir/insertionsort.cpp.o
+.PHONY : insertionsort.cpp.o
+
+insertionsort.i: insertionsort.cpp.i
+
+.PHONY : insertionsort.i
+
+# target to preprocess a source file
+insertionsort.cpp.i:
+	$(MAKE) -f CMakeFiles/insertionsort.dir/build.make CMakeFiles/insertionsort.dir/insertionsort.cpp.i
+.PHONY : insertionsort.cpp.i
+
+insertionsort.s: insertionsort.cpp.s
+
+.PHONY : insertionsort.s
+
+# target to generate assembly for a file
+insertionsort.cpp.s:
+	$(MAKE) -f CMakeFiles/insertionsort.dir/build.make CMakeFiles/insertionsort.dir/insertionsort.cpp.s
+.PHONY : insertionsort.cpp.s
+
+linkedlist.o: linkedlist.cpp.o
+
+.PHONY : linkedlist.o
+
+# target to build an object file
+linkedlist.cpp.o:
+	$(MAKE) -f CMakeFiles/linkedlist.dir/build.make CMakeFiles/linkedlist.dir/linkedlist.cpp.o
+.PHONY : linkedlist.cpp.o
+
+linkedlist.i: linkedlist.cpp.i
+
+.PHONY : linkedlist.i
+
+# target to preprocess a source file
+linkedlist.cpp.i:
+	$(MAKE) -f CMakeFiles/linkedlist.dir/build.make CMakeFiles/linkedlist.dir/linkedlist.cpp.i
+.PHONY : linkedlist.cpp.i
+
+linkedlist.s: linkedlist.cpp.s
+
+.PHONY : linkedlist.s
+
+# target to generate assembly for a file
+linkedlist.cpp.s:
+	$(MAKE) -f CMakeFiles/linkedlist.dir/build.make CMakeFiles/linkedlist.dir/linkedlist.cpp.s
+.PHONY : linkedlist.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -202,6 +668,60 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) -f CMakeFiles/Midtermprac.dir/build.make CMakeFiles/Midtermprac.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+merge.o: merge.cpp.o
+
+.PHONY : merge.o
+
+# target to build an object file
+merge.cpp.o:
+	$(MAKE) -f CMakeFiles/merge.dir/build.make CMakeFiles/merge.dir/merge.cpp.o
+.PHONY : merge.cpp.o
+
+merge.i: merge.cpp.i
+
+.PHONY : merge.i
+
+# target to preprocess a source file
+merge.cpp.i:
+	$(MAKE) -f CMakeFiles/merge.dir/build.make CMakeFiles/merge.dir/merge.cpp.i
+.PHONY : merge.cpp.i
+
+merge.s: merge.cpp.s
+
+.PHONY : merge.s
+
+# target to generate assembly for a file
+merge.cpp.s:
+	$(MAKE) -f CMakeFiles/merge.dir/build.make CMakeFiles/merge.dir/merge.cpp.s
+.PHONY : merge.cpp.s
+
+shuffle.o: shuffle.cpp.o
+
+.PHONY : shuffle.o
+
+# target to build an object file
+shuffle.cpp.o:
+	$(MAKE) -f CMakeFiles/shuffle.dir/build.make CMakeFiles/shuffle.dir/shuffle.cpp.o
+.PHONY : shuffle.cpp.o
+
+shuffle.i: shuffle.cpp.i
+
+.PHONY : shuffle.i
+
+# target to preprocess a source file
+shuffle.cpp.i:
+	$(MAKE) -f CMakeFiles/shuffle.dir/build.make CMakeFiles/shuffle.dir/shuffle.cpp.i
+.PHONY : shuffle.cpp.i
+
+shuffle.s: shuffle.cpp.s
+
+.PHONY : shuffle.s
+
+# target to generate assembly for a file
+shuffle.cpp.s:
+	$(MAKE) -f CMakeFiles/shuffle.dir/build.make CMakeFiles/shuffle.dir/shuffle.cpp.s
+.PHONY : shuffle.cpp.s
 
 stack.o: stack.cpp.o
 
@@ -238,15 +758,67 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... linkedlist"
+	@echo "... binarysearch"
+	@echo "... merge"
+	@echo "... ES"
+	@echo "... fibo"
+	@echo "... LLhnp"
+	@echo "... LLht"
+	@echo "... LLprac"
+	@echo "... heap"
+	@echo "... bisection"
+	@echo "... shuffle"
+	@echo "... insertionsort"
+	@echo "... gcd"
 	@echo "... stack"
 	@echo "... DoubleLLtemplated"
 	@echo "... Midtermprac"
 	@echo "... DoubleLLtemplated.o"
 	@echo "... DoubleLLtemplated.i"
 	@echo "... DoubleLLtemplated.s"
+	@echo "... ES.o"
+	@echo "... ES.i"
+	@echo "... ES.s"
+	@echo "... LLhnp.o"
+	@echo "... LLhnp.i"
+	@echo "... LLhnp.s"
+	@echo "... LLht.o"
+	@echo "... LLht.i"
+	@echo "... LLht.s"
+	@echo "... LLprac.o"
+	@echo "... LLprac.i"
+	@echo "... LLprac.s"
+	@echo "... binarysearch.o"
+	@echo "... binarysearch.i"
+	@echo "... binarysearch.s"
+	@echo "... bisection.o"
+	@echo "... bisection.i"
+	@echo "... bisection.s"
+	@echo "... fibo.o"
+	@echo "... fibo.i"
+	@echo "... fibo.s"
+	@echo "... gcd.o"
+	@echo "... gcd.i"
+	@echo "... gcd.s"
+	@echo "... heap.o"
+	@echo "... heap.i"
+	@echo "... heap.s"
+	@echo "... insertionsort.o"
+	@echo "... insertionsort.i"
+	@echo "... insertionsort.s"
+	@echo "... linkedlist.o"
+	@echo "... linkedlist.i"
+	@echo "... linkedlist.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... merge.o"
+	@echo "... merge.i"
+	@echo "... merge.s"
+	@echo "... shuffle.o"
+	@echo "... shuffle.i"
+	@echo "... shuffle.s"
 	@echo "... stack.o"
 	@echo "... stack.i"
 	@echo "... stack.s"

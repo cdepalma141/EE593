@@ -37,6 +37,552 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="linkedlist">
+				<Option output="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/linkedlist" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 linkedlist"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="linkedlist/fast">
+				<Option output="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/linkedlist" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 linkedlist/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="binarysearch">
+				<Option output="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/binarysearch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 binarysearch"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="binarysearch/fast">
+				<Option output="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/binarysearch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 binarysearch/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="merge">
+				<Option output="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/merge" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 merge"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="merge/fast">
+				<Option output="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/merge" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 merge/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ES">
+				<Option output="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/ES" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 ES"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ES/fast">
+				<Option output="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/ES" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 ES/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fibo">
+				<Option output="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/fibo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 fibo"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fibo/fast">
+				<Option output="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/fibo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 fibo/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LLhnp">
+				<Option output="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/LLhnp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 LLhnp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LLhnp/fast">
+				<Option output="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/LLhnp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 LLhnp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LLht">
+				<Option output="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/LLht" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 LLht"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LLht/fast">
+				<Option output="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/LLht" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 LLht/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LLprac">
+				<Option output="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/LLprac" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 LLprac"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LLprac/fast">
+				<Option output="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/LLprac" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 LLprac/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heap">
+				<Option output="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/heap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 heap"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heap/fast">
+				<Option output="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/heap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 heap/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bisection">
+				<Option output="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/bisection" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 bisection"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bisection/fast">
+				<Option output="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/bisection" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 bisection/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shuffle">
+				<Option output="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/shuffle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 shuffle"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shuffle/fast">
+				<Option output="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/shuffle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 shuffle/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="insertionsort">
+				<Option output="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/insertionsort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 insertionsort"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="insertionsort/fast">
+				<Option output="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/insertionsort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 insertionsort/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gcd">
+				<Option output="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/gcd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 gcd"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gcd/fast">
+				<Option output="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/gcd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 gcd/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="stack">
 				<Option output="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/stack" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug"/>
@@ -167,8 +713,47 @@
 		<Unit filename="/Users/connordepalma/Documents/Git/EE593/Midtermprac/DoubleLLtemplated.cpp">
 			<Option target="DoubleLLtemplated"/>
 		</Unit>
+		<Unit filename="/Users/connordepalma/Documents/Git/EE593/Midtermprac/ES.cpp">
+			<Option target="ES"/>
+		</Unit>
+		<Unit filename="/Users/connordepalma/Documents/Git/EE593/Midtermprac/LLhnp.cpp">
+			<Option target="LLhnp"/>
+		</Unit>
+		<Unit filename="/Users/connordepalma/Documents/Git/EE593/Midtermprac/LLht.cpp">
+			<Option target="LLht"/>
+		</Unit>
+		<Unit filename="/Users/connordepalma/Documents/Git/EE593/Midtermprac/LLprac.cpp">
+			<Option target="LLprac"/>
+		</Unit>
+		<Unit filename="/Users/connordepalma/Documents/Git/EE593/Midtermprac/binarysearch.cpp">
+			<Option target="binarysearch"/>
+		</Unit>
+		<Unit filename="/Users/connordepalma/Documents/Git/EE593/Midtermprac/bisection.cpp">
+			<Option target="bisection"/>
+		</Unit>
+		<Unit filename="/Users/connordepalma/Documents/Git/EE593/Midtermprac/fibo.cpp">
+			<Option target="fibo"/>
+		</Unit>
+		<Unit filename="/Users/connordepalma/Documents/Git/EE593/Midtermprac/gcd.cpp">
+			<Option target="gcd"/>
+		</Unit>
+		<Unit filename="/Users/connordepalma/Documents/Git/EE593/Midtermprac/heap.cpp">
+			<Option target="heap"/>
+		</Unit>
+		<Unit filename="/Users/connordepalma/Documents/Git/EE593/Midtermprac/insertionsort.cpp">
+			<Option target="insertionsort"/>
+		</Unit>
+		<Unit filename="/Users/connordepalma/Documents/Git/EE593/Midtermprac/linkedlist.cpp">
+			<Option target="linkedlist"/>
+		</Unit>
 		<Unit filename="/Users/connordepalma/Documents/Git/EE593/Midtermprac/main.cpp">
 			<Option target="Midtermprac"/>
+		</Unit>
+		<Unit filename="/Users/connordepalma/Documents/Git/EE593/Midtermprac/merge.cpp">
+			<Option target="merge"/>
+		</Unit>
+		<Unit filename="/Users/connordepalma/Documents/Git/EE593/Midtermprac/shuffle.cpp">
+			<Option target="shuffle"/>
 		</Unit>
 		<Unit filename="/Users/connordepalma/Documents/Git/EE593/Midtermprac/stack.cpp">
 			<Option target="stack"/>

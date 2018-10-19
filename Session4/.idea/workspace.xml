@@ -35,10 +35,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4045e6d-f555-4136-a444-2276c1d9db67" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Session1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Session1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Session1/HW1a2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Session1/HW1a2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Session1/cmake-build-debug/CMakeFiles/HW1a2.dir/HW1a2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Session1/cmake-build-debug/CMakeFiles/HW1a2.dir/HW1a2.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Session1/cmake-build-debug/HW1a2" beforeDir="false" afterPath="$PROJECT_DIR$/../Session1/cmake-build-debug/HW1a2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/DoubleLLtemplated.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/DoubleLLtemplated.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/DoubleLLtemplated.dir/DoubleLLtemplated.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/DoubleLLtemplated.dir/DoubleLLtemplated.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/Midtermprac.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/Midtermprac.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/stack.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/stack.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/DoubleLLtemplated" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/DoubleLLtemplated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/Midtermprac.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/Midtermprac.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practic/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Session5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Session5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/GROWWW.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/GROWWW.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/CMakeFiles/GROWWW.dir/GROWWW.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/cmake-build-debug/CMakeFiles/GROWWW.dir/GROWWW.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/GROWWW" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/cmake-build-debug/GROWWW" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,10 +67,11 @@
     <session id="-1502553584">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -111,8 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GrowArrayHW.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="74" column="11" selection-end-line="75" selection-end-column="1" />
+            <state relative-caret-position="885">
+              <caret line="59" column="1" selection-end-line="59" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -120,8 +136,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/badGrowArray.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="65" lean-forward="true" selection-end-line="80" selection-end-column="1" />
+            <state relative-caret-position="138">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -166,7 +182,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,6 +193,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,17 +255,18 @@
       <workItem from="1538088612636" duration="484000" />
       <workItem from="1538524490940" duration="2257000" />
       <workItem from="1538527082345" duration="1258000" />
+      <workItem from="1539638591782" duration="7000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3999000" />
+    <option name="totallyTimeSpent" value="4006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -313,17 +330,24 @@
     <entry file="file://$PROJECT_DIR$/GrowArray.hh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/GrowArrayHW.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="74" column="11" selection-end-line="75" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GrowArrayHW.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="1" selection-end-line="59" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -336,17 +360,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/badGrowArray.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="65" lean-forward="true" selection-end-line="80" selection-end-column="1" />
+        <state relative-caret-position="138">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>

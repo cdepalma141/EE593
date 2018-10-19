@@ -33,10 +33,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="777ce007-dee1-4231-9458-aac0edb6ff13" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Session1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Session1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Session1/HW1a2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Session1/HW1a2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Session1/cmake-build-debug/CMakeFiles/HW1a2.dir/HW1a2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Session1/cmake-build-debug/CMakeFiles/HW1a2.dir/HW1a2.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Session1/cmake-build-debug/HW1a2" beforeDir="false" afterPath="$PROJECT_DIR$/../Session1/cmake-build-debug/HW1a2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/DoubleLLtemplated.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/DoubleLLtemplated.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/DoubleLLtemplated.dir/DoubleLLtemplated.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/DoubleLLtemplated.dir/DoubleLLtemplated.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/Midtermprac.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/Midtermprac.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/stack.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/stack.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/DoubleLLtemplated" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/DoubleLLtemplated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/Midtermprac.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/Midtermprac.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Session4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Session4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Session5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Session5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/GROWWW.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/GROWWW.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/CMakeFiles/GROWWW.dir/GROWWW.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/cmake-build-debug/CMakeFiles/GROWWW.dir/GROWWW.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/GROWWW" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/cmake-build-debug/GROWWW" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,9 +66,10 @@
     <session id="-1959177649">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -101,10 +118,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="x" value="846" />
+    <option name="y" value="23" />
     <option name="width" value="834" />
-    <option name="height" value="1050" />
+    <option name="height" value="945" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -112,8 +130,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -162,16 +180,18 @@
       <updated>1539215786077</updated>
       <workItem from="1539215787704" duration="28000" />
       <workItem from="1539446311143" duration="12000" />
+      <workItem from="1539562437478" duration="4000" />
+      <workItem from="1539638600081" duration="10000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40000" />
+    <option name="totallyTimeSpent" value="54000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="846" y="23" width="834" height="945" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2651515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />

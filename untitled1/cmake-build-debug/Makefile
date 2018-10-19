@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/connordepalma/Documents/Git/EE593/untitled1/cmake-buil
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/Users/connordepalma/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4505.18/CLion.app/Contents/bin/cmake/mac/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"/Users/connordepalma/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4505.18/CLion.app/Contents/bin/cmake/mac/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -150,6 +150,19 @@ BadGrow/fast:
 .PHONY : BadGrow/fast
 
 #=============================================================================
+# Target rules for targets named HW4a
+
+# Build rule for target.
+HW4a: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HW4a
+.PHONY : HW4a
+
+# fast build rule for target.
+HW4a/fast:
+	$(MAKE) -f CMakeFiles/HW4a.dir/build.make CMakeFiles/HW4a.dir/build
+.PHONY : HW4a/fast
+
+#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -216,6 +229,33 @@ GROWWW.cpp.s:
 	$(MAKE) -f CMakeFiles/GROWWW.dir/build.make CMakeFiles/GROWWW.dir/GROWWW.cpp.s
 .PHONY : GROWWW.cpp.s
 
+HW4a.o: HW4a.cpp.o
+
+.PHONY : HW4a.o
+
+# target to build an object file
+HW4a.cpp.o:
+	$(MAKE) -f CMakeFiles/HW4a.dir/build.make CMakeFiles/HW4a.dir/HW4a.cpp.o
+.PHONY : HW4a.cpp.o
+
+HW4a.i: HW4a.cpp.i
+
+.PHONY : HW4a.i
+
+# target to preprocess a source file
+HW4a.cpp.i:
+	$(MAKE) -f CMakeFiles/HW4a.dir/build.make CMakeFiles/HW4a.dir/HW4a.cpp.i
+.PHONY : HW4a.cpp.i
+
+HW4a.s: HW4a.cpp.s
+
+.PHONY : HW4a.s
+
+# target to generate assembly for a file
+HW4a.cpp.s:
+	$(MAKE) -f CMakeFiles/HW4a.dir/build.make CMakeFiles/HW4a.dir/HW4a.cpp.s
+.PHONY : HW4a.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -276,11 +316,12 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... GROWWW"
 	@echo "... test2"
 	@echo "... BadGrow"
+	@echo "... rebuild_cache"
+	@echo "... HW4a"
 	@echo "... main"
 	@echo "... BadGrow.o"
 	@echo "... BadGrow.i"
@@ -288,6 +329,9 @@ help:
 	@echo "... GROWWW.o"
 	@echo "... GROWWW.i"
 	@echo "... GROWWW.s"
+	@echo "... HW4a.o"
+	@echo "... HW4a.i"
+	@echo "... HW4a.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

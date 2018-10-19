@@ -1,6 +1,11 @@
-//
-// Created by Connor DePalma on 10/3/18.
-//
+/*
+ * HW4a - Grow Array
+ *
+ * Connor DePalma.
+ *
+ * I pledge my honor that I have abided by the Stevens Honor System.
+ *
+ */
 
 #include <iostream>
 #include <fstream>
@@ -8,29 +13,43 @@
 #include <vector>
 #include <cmath>
 
+/*
+ * This will first display a 16 by 16 grid to show the sizes of all lists with list[0][0] in the top left corner.
+ *
+ * Next, a grid representation will be shown with the xmax/ymax and xmin/ymin displayed. If the same values are visible
+ * for max and min, then the list only contains that point. If a list is empty then it will display nan as its value.
+ *
+ * Lastly, a grid with '-' representing empty lists will be displayed.  This grid will display all points in every list
+ * that is on the perimeter of the grid (values not on the perimeter will always be '-'). Points in the same list will
+ * separated by '|'.
+ *
+ *
+ */
 
 
 using namespace std;
 
 
-class Convex {
+class ConvexHull {
 
 private:
-    class Point {
-    public:
-        double x, y;
-        Point(double x = 0, double y = 0): x(x), y(y) {}
-
-        friend ostream& operator<<(ostream& s, const Point& b){
-            s << b.x << ", "<< b.y;
-            return s;
-        }
-
-
-    };
 
     class List {
     private:
+
+        class Point {
+        public:
+            double x, y;
+            Point(double x = 0, double y = 0): x(x), y(y) {}
+
+            friend ostream& operator<<(ostream& s, const Point& b){
+                s << b.x << ", "<< b.y;
+                return s;
+            }
+
+
+        };
+
         int used;
         int capacity;
         Point **p;
@@ -147,26 +166,26 @@ private:
 
         double getxmax(){
             if(xmax == INT_MIN)
-                return 0.0;
+                return NAN;
 
           return xmax;
         }
 
         double getxmin(){
             if(xmin == INT_MAX)
-                return 0.0;
+                return NAN;
 
             return xmin;
         }
         double getymax(){
             if(ymax == INT_MIN)
-                return 0.0;
+                return NAN;
 
             return ymax;
         }
         double getymin(){
             if(ymin == INT_MAX)
-                return 0.0;
+                return NAN;
 
             return ymin;
         }
@@ -200,7 +219,7 @@ public:
 
 
 
-    Convex(uint32_t size) : size(size), xmax(INT_MIN), xmin(INT_MAX), ymax(INT_MIN), ymin(INT_MAX), hull(new List**[size]) {
+    ConvexHull(uint32_t size) : size(size), xmax(INT_MIN), xmin(INT_MAX), ymax(INT_MIN), ymin(INT_MAX), hull(new List**[size]) {
         for (int i = 0; i < size; i++) {
             hull[i] = new List*[size];
             for(int j = 0; j < size; j++)
@@ -210,15 +229,15 @@ public:
 
     }
 
+    ConvexHull() : ConvexHull(10) {}
 
-    ~Convex(){
+
+    ~ConvexHull(){
         for (int i = 0; i < size; i++) {
             for(int j = 0; j < size; j++)
                 delete hull[i][j];
-        };
 
-        for (int i = 0; i < size; i++) {
-                delete[] hull[i];
+            delete[] hull[i];
         };
 
         delete[] hull;
@@ -349,12 +368,13 @@ public:
 
 int main() {
     // for homework n=16
-    Convex ch(16); // create a 16x16 grid of GrowArray
-    ch.read("/Users/connordepalma/Documents/Git/EE593/Session5/points.dat");
+    ConvexHull ch(16); // create a 16x16 grid of GrowArray
+    ch.read("/convexhullpoints.dat");
     ch.printAllListSizes(); // tell us how many are in each list
-    ch.printMinMax(); // print minx, maxx, miny, max
-
-    ch.printPerimeterClockWiseOrder(); // p1,p2,p3,p4,p8,p12,p16..
+    ch.printMinMax(); // print minx, maxx, miny, maxy for the entire dataset
+    ch.printPerimeterClockWiseOrder(); // p1,p2,p3,p4, p8,p12,p16...
+    // for each growarray around the perimeter print xmin, xmax, ymin,ymax
+    // this is the minimum, maximum for the x,y in THAT BOX
     /*
   example shown n=4
        -----------------------
