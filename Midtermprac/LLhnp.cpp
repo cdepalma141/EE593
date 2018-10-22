@@ -76,7 +76,9 @@ public:
         Node*p = head;
         for(; p->next != nullptr; p = p->next )
             ;
-        p->next = new Node(val, nullptr, p);
+        Node* temp = new Node(val, nullptr, p);
+        p->next = temp;
+        p=temp;
     }
 
     void removeEnd(){
@@ -122,19 +124,19 @@ int main() {
     LL a;
     for(int i = 0; i < 10; i ++)
         a.addEnd(i);
-
-    a.removeEnd();
-    a.addStart(4);
-    a.removeStart();
-
-    cout << a.getval(8);
-    cout << '\n';
     cout << a;
-    cout << '\n';
-
-    LL b;
-
-    cout << a.isEmpty();
-    cout << '\n';
-    cout << b.isEmpty();
+//    a.removeEnd();
+//    a.addStart(4);
+//    a.removeStart();
+//
+//    cout << a.getval(8);
+//    cout << '\n';
+//    cout << a;
+//    cout << '\n';
+//
+//    LL b;
+//
+//    cout << a.isEmpty();
+//    cout << '\n';
+//    cout << b.isEmpty();
 }

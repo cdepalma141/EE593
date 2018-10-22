@@ -24,10 +24,10 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
       <config projectName="untitled1" targetName="test2" />
+      <config projectName="untitled1" targetName="BadGrow" />
+      <config projectName="untitled1" targetName="main" />
       <config projectName="untitled1" targetName="GROWWW" />
       <config projectName="untitled1" targetName="HW4a" />
-      <config projectName="untitled1" targetName="main" />
-      <config projectName="untitled1" targetName="BadGrow" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -37,39 +37,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22bbd117-2fd4-47c1-861a-364b415ab5e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Midtermprac/linkedlist.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Midtermprac/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midtermprac/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midtermprac/DoubleLLtemplated.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/DoubleLLtemplated.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/DoubleLLtemplated.dir/DoubleLLtemplated.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/DoubleLLtemplated.dir/DoubleLLtemplated.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/Midtermprac.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/Midtermprac.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/stack.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/stack.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/DoubleLLtemplated" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/DoubleLLtemplated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/Midtermprac.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/Midtermprac.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practic/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Session4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Session4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Session5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Session5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/LLhnp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/LLhnp.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/LLht.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/LLht.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/LLhnp.dir/LLhnp.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/LLhnp.dir/LLhnp.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/LLht.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/LLht.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/LLht.dir/LLht.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/CMakeFiles/LLht.dir/LLht.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/LLhnp" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/LLhnp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/LLht" beforeDir="false" afterPath="$PROJECT_DIR$/../Midtermprac/cmake-build-debug/LLht" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BadGrow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BadGrow.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GROWWW.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GROWWW.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/BadGrow" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BadGrow" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BadGrow.dir/BadGrow.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BadGrow.dir/BadGrow.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GROWWW.dir/GROWWW.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GROWWW.dir/GROWWW.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test2.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/GROWWW" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/GROWWW" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled1.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/points.dat" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,11 +60,14 @@
     <session id="1874023384">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -138,26 +118,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GROWWW.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5565">
-              <caret line="371" column="14" selection-start-line="371" selection-start-column="14" selection-end-line="371" selection-end-column="14" />
-              <folding>
-                <element signature="e#48#67#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="88">
+              <caret line="297" column="13" selection-start-line="297" selection-start-column="13" selection-end-line="297" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HW4a.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-408">
-              <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-              <folding>
-                <element signature="e#126#145#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -166,7 +140,7 @@
         <entry file="file://$PROJECT_DIR$/convexhullpoints.dat">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -174,7 +148,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BadGrow.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
+            <state relative-caret-position="1260">
               <caret line="84" column="14" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
             </state>
           </provider>
@@ -230,9 +204,8 @@
       <scroll-view-position x="0" y="0" />
     </layout>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="846" />
-    <option name="width" value="834" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -337,16 +310,21 @@
       <workItem from="1539120719040" duration="1619000" />
       <workItem from="1539213791058" duration="28136000" />
       <workItem from="1539638611166" duration="6593000" />
+      <workItem from="1540149639795" duration="14000" />
+      <workItem from="1540150117083" duration="20000" />
+      <workItem from="1540160441247" duration="1042000" />
+      <workItem from="1540172505836" duration="545000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45583000" />
+    <option name="totallyTimeSpent" value="47204000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26190478" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2741148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -390,6 +368,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HW4a.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/convexhullpoints.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BadGrow.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="84" column="14" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test2.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -400,37 +399,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BadGrow.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="84" column="14" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GROWWW.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5565">
-          <caret line="371" column="14" selection-start-line="371" selection-start-column="14" selection-end-line="371" selection-end-column="14" />
-          <folding>
-            <element signature="e#48#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/convexhullpoints.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW4a.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-          <folding>
-            <element signature="e#126#145#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="88">
+          <caret line="297" column="13" selection-start-line="297" selection-start-column="13" selection-end-line="297" selection-end-column="13" />
         </state>
       </provider>
     </entry>
