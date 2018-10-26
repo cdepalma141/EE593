@@ -102,6 +102,43 @@ clean: CMakeFiles/linkedlist.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/LLhnp.dir
+
+# All Build rule for target.
+CMakeFiles/LLhnp.dir/all:
+	$(MAKE) -f CMakeFiles/LLhnp.dir/build.make CMakeFiles/LLhnp.dir/depend
+	$(MAKE) -f CMakeFiles/LLhnp.dir/build.make CMakeFiles/LLhnp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target LLhnp"
+.PHONY : CMakeFiles/LLhnp.dir/all
+
+# Include target in all.
+all: CMakeFiles/LLhnp.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/LLhnp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/LLhnp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/LLhnp.dir/rule
+
+# Convenience name for target.
+LLhnp: CMakeFiles/LLhnp.dir/rule
+
+.PHONY : LLhnp
+
+# clean rule for target.
+CMakeFiles/LLhnp.dir/clean:
+	$(MAKE) -f CMakeFiles/LLhnp.dir/build.make CMakeFiles/LLhnp.dir/clean
+.PHONY : CMakeFiles/LLhnp.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/LLhnp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/binarysearch.dir
 
 # All Build rule for target.
@@ -246,80 +283,6 @@ CMakeFiles/fibo.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/fibo.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/LLhnp.dir
-
-# All Build rule for target.
-CMakeFiles/LLhnp.dir/all:
-	$(MAKE) -f CMakeFiles/LLhnp.dir/build.make CMakeFiles/LLhnp.dir/depend
-	$(MAKE) -f CMakeFiles/LLhnp.dir/build.make CMakeFiles/LLhnp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target LLhnp"
-.PHONY : CMakeFiles/LLhnp.dir/all
-
-# Include target in all.
-all: CMakeFiles/LLhnp.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/LLhnp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/LLhnp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/LLhnp.dir/rule
-
-# Convenience name for target.
-LLhnp: CMakeFiles/LLhnp.dir/rule
-
-.PHONY : LLhnp
-
-# clean rule for target.
-CMakeFiles/LLhnp.dir/clean:
-	$(MAKE) -f CMakeFiles/LLhnp.dir/build.make CMakeFiles/LLhnp.dir/clean
-.PHONY : CMakeFiles/LLhnp.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/LLhnp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/LLht.dir
-
-# All Build rule for target.
-CMakeFiles/LLht.dir/all:
-	$(MAKE) -f CMakeFiles/LLht.dir/build.make CMakeFiles/LLht.dir/depend
-	$(MAKE) -f CMakeFiles/LLht.dir/build.make CMakeFiles/LLht.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target LLht"
-.PHONY : CMakeFiles/LLht.dir/all
-
-# Include target in all.
-all: CMakeFiles/LLht.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/LLht.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/LLht.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/LLht.dir/rule
-
-# Convenience name for target.
-LLht: CMakeFiles/LLht.dir/rule
-
-.PHONY : LLht
-
-# clean rule for target.
-CMakeFiles/LLht.dir/clean:
-	$(MAKE) -f CMakeFiles/LLht.dir/build.make CMakeFiles/LLht.dir/clean
-.PHONY : CMakeFiles/LLht.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/LLht.dir/clean
 
 .PHONY : clean
 
@@ -579,6 +542,43 @@ CMakeFiles/stack.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/stack.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/HW.dir
+
+# All Build rule for target.
+CMakeFiles/HW.dir/all:
+	$(MAKE) -f CMakeFiles/HW.dir/build.make CMakeFiles/HW.dir/depend
+	$(MAKE) -f CMakeFiles/HW.dir/build.make CMakeFiles/HW.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target HW"
+.PHONY : CMakeFiles/HW.dir/all
+
+# Include target in all.
+all: CMakeFiles/HW.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/HW.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/HW.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE593/Midtermprac/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/HW.dir/rule
+
+# Convenience name for target.
+HW: CMakeFiles/HW.dir/rule
+
+.PHONY : HW
+
+# clean rule for target.
+CMakeFiles/HW.dir/clean:
+	$(MAKE) -f CMakeFiles/HW.dir/build.make CMakeFiles/HW.dir/clean
+.PHONY : CMakeFiles/HW.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/HW.dir/clean
 
 .PHONY : clean
 

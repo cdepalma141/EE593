@@ -1,10 +1,12 @@
-//
-// Created by Connor DePalma on 10/14/18.
-//
+/*
+ * HW - Linked List class
+ *
+ * Connor DePalma.
+ *
+ * I pledge my honor that I have abided by the Stevens Honor System.
+ *
+ */
 
-//
-// Created by Connor DePalma on 10/14/18.
-//
 #include <iostream>
 #include <sstream>
 #include <fstream>
@@ -191,14 +193,13 @@ public:
         }
     }
 
-    LL& revList(){
-        LL copy(*this);
-        for(Node*p = copy.head; p!=nullptr; p=p->next) {
-            addStart(p->v);
-            removeEnd();
+    LL revList(){
+        LL newList;
+        for(Node*p = head; p!=nullptr; p=p->next) {
+            newList.addStart(p->v);
         }
 
-        return *this;
+        return newList;
 
     }
 
@@ -218,23 +219,12 @@ public:
 
 int main() {
     LL a;
-    LL b;
-    a.read("/Users/connordepalma/Documents/Git/EE593/Midtermprac/linkedlist.dat");
-    cout << a << '\t' << a.getSize() << '\n';
+    a.read("linkedlist.dat");
+    cout << a << '\n';
     a.remIndices();
-    cout << a << '\t'<< a.getSize() << '\n';
-    b=a;
-    cout << b  << '\t'<< b.getSize() << '\n';
-    b.remIndices();
-    cout << b  << '\t'<< b.getSize() << '\n';
-    b.revList();
-    cout << b << '\t'<< b.getSize() << '\n';
-    a.revList();
-    cout << a << '\t'<< a.getSize() << '\n';
-    b.removeEnd();
-    cout << b << '\t'<< b.getSize() << '\n';
-    a.addStart(7);
-    cout << a << '\t'<< a.getSize() << '\n';
-
+    cout << a << '\n';
+    a.remIndices();
+    cout << a << '\n';
+    cout << a.revList() << '\n'; // doesn't change a
 
 }

@@ -23,21 +23,21 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="Midtermprac" targetName="binarysearch" />
-      <config projectName="Midtermprac" targetName="LLht" />
-      <config projectName="Midtermprac" targetName="insertionsort" />
-      <config projectName="Midtermprac" targetName="heap" />
-      <config projectName="Midtermprac" targetName="LLprac" />
-      <config projectName="Midtermprac" targetName="merge" />
-      <config projectName="Midtermprac" targetName="Midtermprac" />
-      <config projectName="Midtermprac" targetName="shuffle" />
-      <config projectName="Midtermprac" targetName="stack" />
-      <config projectName="Midtermprac" targetName="ES" />
-      <config projectName="Midtermprac" targetName="DoubleLLtemplated" />
-      <config projectName="Midtermprac" targetName="gcd" />
       <config projectName="Midtermprac" targetName="fibo" />
-      <config projectName="Midtermprac" targetName="bisection" />
+      <config projectName="Midtermprac" targetName="stack" />
+      <config projectName="Midtermprac" targetName="insertionsort" />
+      <config projectName="Midtermprac" targetName="DoubleLLtemplated" />
+      <config projectName="Midtermprac" targetName="heap" />
+      <config projectName="Midtermprac" targetName="Midtermprac" />
       <config projectName="Midtermprac" targetName="LLhnp" />
+      <config projectName="Midtermprac" targetName="bisection" />
+      <config projectName="Midtermprac" targetName="shuffle" />
+      <config projectName="Midtermprac" targetName="LLprac" />
+      <config projectName="Midtermprac" targetName="binarysearch" />
+      <config projectName="Midtermprac" targetName="merge" />
+      <config projectName="Midtermprac" targetName="gcd" />
+      <config projectName="Midtermprac" targetName="HW" />
+      <config projectName="Midtermprac" targetName="ES" />
       <config projectName="Midtermprac" targetName="linkedlist" />
     </generated>
   </component>
@@ -48,15 +48,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="895db7ce-1c82-43f7-8312-e6821e3dddd2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/linkedlist.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LLhnp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LLhnp.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LLht.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LLht.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LLhnp.dir/LLhnp.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LLhnp.dir/LLhnp.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LLht.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LLht.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLht.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LLhnp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LLhnp.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LLht.dir/LLht.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LLht.dir/LLht.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/LLhnp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LLhnp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/LLht" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LLht" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Midtermprac.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Midtermprac.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -71,66 +73,69 @@
     <session id="-1980817793">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="33" />
+          <entry key="cpp" value="34" />
           <entry key="dat" value="1" />
-          <entry key="txt" value="1" />
+          <entry key="txt" value="2" />
           <entry key="type_traits" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="1" />
-          <entry key="ObjectiveC" value="34" />
+          <entry key="CMakeLists.txt" value="2" />
+          <entry key="ObjectiveC" value="35" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="14844" />
-          <entry key="dat" value="7" />
+          <entry key="cpp" value="14982" />
+          <entry key="dat" value="17" />
+          <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="14844" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="CMakeLists.txt" value="4" />
+          <entry key="ObjectiveC" value="14982" />
+          <entry key="PLAIN_TEXT" value="17" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LLht.cpp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HW.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="228" column="45" lean-forward="true" selection-start-line="228" selection-start-column="45" selection-end-line="228" selection-end-column="45" />
+            <state relative-caret-position="355">
+              <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
               <folding>
-                <element signature="e#97#116#0" expanded="true" />
+                <element signature="e#131#150#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LLhnp.cpp">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-56">
-              <caret line="80" column="15" selection-start-line="80" selection-start-column="15" selection-end-line="80" selection-end-column="15" />
+            <state relative-caret-position="135">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/linkedlist.dat">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -165,8 +170,10 @@
         <option value="$PROJECT_DIR$/LLprac.cpp" />
         <option value="$PROJECT_DIR$/linkedlist.cpp" />
         <option value="$PROJECT_DIR$/LLhnp.cpp" />
-        <option value="$PROJECT_DIR$/linkedlist.dat" />
         <option value="$PROJECT_DIR$/LLht.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/HW.cpp" />
+        <option value="$PROJECT_DIR$/linkedlist.dat" />
       </list>
     </option>
   </component>
@@ -218,7 +225,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LLht">
+  <component name="RunManager" selected="Application.HW">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -234,12 +241,12 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LLhnp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Midtermprac" TARGET_NAME="LLhnp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Midtermprac" RUN_TARGET_NAME="LLhnp">
+    <configuration name="HW" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Midtermprac" TARGET_NAME="HW" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Midtermprac" RUN_TARGET_NAME="HW">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LLht" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Midtermprac" TARGET_NAME="LLht" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Midtermprac" RUN_TARGET_NAME="LLht">
+    <configuration name="LLhnp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Midtermprac" TARGET_NAME="LLhnp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Midtermprac" RUN_TARGET_NAME="LLhnp">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -313,10 +320,10 @@
       <item itemvalue="Application.fibo" />
       <item itemvalue="Application.gcd" />
       <item itemvalue="Application.heap" />
+      <item itemvalue="Application.HW" />
       <item itemvalue="Application.insertionsort" />
       <item itemvalue="Application.linkedlist" />
       <item itemvalue="Application.LLhnp" />
-      <item itemvalue="Application.LLht" />
       <item itemvalue="Application.LLprac" />
       <item itemvalue="Application.merge" />
       <item itemvalue="Application.Midtermprac" />
@@ -337,18 +344,18 @@
       <workItem from="1539300362613" duration="5103000" />
       <workItem from="1539561214403" duration="30672000" />
       <workItem from="1540149658237" duration="13119000" />
-      <workItem from="1540172505157" duration="979000" />
+      <workItem from="1540172505157" duration="1239000" />
+      <workItem from="1540504822391" duration="2620000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49873000" />
+    <option name="totallyTimeSpent" value="52753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12576313" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12698413" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -407,9 +414,6 @@
           <caret line="4588" selection-start-line="4588" selection-end-line="4588" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/gcd.cpp">
       <provider selected="true" editor-type-id="text-editor">
@@ -530,27 +534,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linkedlist.dat">
+    <entry file="file://$PROJECT_DIR$/LLht.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        <state relative-caret-position="444">
+          <caret line="224" column="22" lean-forward="true" selection-start-line="224" selection-start-column="22" selection-end-line="224" selection-end-column="22" />
+          <folding>
+            <element signature="e#97#116#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LLhnp.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-56">
+        <state relative-caret-position="15">
           <caret line="80" column="15" selection-start-line="80" selection-start-column="15" selection-end-line="80" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LLht.cpp">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="228" column="45" lean-forward="true" selection-start-line="228" selection-start-column="45" selection-end-line="228" selection-end-column="45" />
+        <state relative-caret-position="135">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
           <folding>
-            <element signature="e#97#116#0" expanded="true" />
+            <element signature="e#131#150#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedlist.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>

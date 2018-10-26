@@ -124,6 +124,19 @@ linkedlist/fast:
 .PHONY : linkedlist/fast
 
 #=============================================================================
+# Target rules for targets named LLhnp
+
+# Build rule for target.
+LLhnp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 LLhnp
+.PHONY : LLhnp
+
+# fast build rule for target.
+LLhnp/fast:
+	$(MAKE) -f CMakeFiles/LLhnp.dir/build.make CMakeFiles/LLhnp.dir/build
+.PHONY : LLhnp/fast
+
+#=============================================================================
 # Target rules for targets named binarysearch
 
 # Build rule for target.
@@ -174,32 +187,6 @@ fibo: cmake_check_build_system
 fibo/fast:
 	$(MAKE) -f CMakeFiles/fibo.dir/build.make CMakeFiles/fibo.dir/build
 .PHONY : fibo/fast
-
-#=============================================================================
-# Target rules for targets named LLhnp
-
-# Build rule for target.
-LLhnp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 LLhnp
-.PHONY : LLhnp
-
-# fast build rule for target.
-LLhnp/fast:
-	$(MAKE) -f CMakeFiles/LLhnp.dir/build.make CMakeFiles/LLhnp.dir/build
-.PHONY : LLhnp/fast
-
-#=============================================================================
-# Target rules for targets named LLht
-
-# Build rule for target.
-LLht: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 LLht
-.PHONY : LLht
-
-# fast build rule for target.
-LLht/fast:
-	$(MAKE) -f CMakeFiles/LLht.dir/build.make CMakeFiles/LLht.dir/build
-.PHONY : LLht/fast
 
 #=============================================================================
 # Target rules for targets named LLprac
@@ -293,6 +280,19 @@ stack/fast:
 .PHONY : stack/fast
 
 #=============================================================================
+# Target rules for targets named HW
+
+# Build rule for target.
+HW: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HW
+.PHONY : HW
+
+# fast build rule for target.
+HW/fast:
+	$(MAKE) -f CMakeFiles/HW.dir/build.make CMakeFiles/HW.dir/build
+.PHONY : HW/fast
+
+#=============================================================================
 # Target rules for targets named DoubleLLtemplated
 
 # Build rule for target.
@@ -372,6 +372,33 @@ ES.cpp.s:
 	$(MAKE) -f CMakeFiles/ES.dir/build.make CMakeFiles/ES.dir/ES.cpp.s
 .PHONY : ES.cpp.s
 
+HW.o: HW.cpp.o
+
+.PHONY : HW.o
+
+# target to build an object file
+HW.cpp.o:
+	$(MAKE) -f CMakeFiles/HW.dir/build.make CMakeFiles/HW.dir/HW.cpp.o
+.PHONY : HW.cpp.o
+
+HW.i: HW.cpp.i
+
+.PHONY : HW.i
+
+# target to preprocess a source file
+HW.cpp.i:
+	$(MAKE) -f CMakeFiles/HW.dir/build.make CMakeFiles/HW.dir/HW.cpp.i
+.PHONY : HW.cpp.i
+
+HW.s: HW.cpp.s
+
+.PHONY : HW.s
+
+# target to generate assembly for a file
+HW.cpp.s:
+	$(MAKE) -f CMakeFiles/HW.dir/build.make CMakeFiles/HW.dir/HW.cpp.s
+.PHONY : HW.cpp.s
+
 LLhnp.o: LLhnp.cpp.o
 
 .PHONY : LLhnp.o
@@ -398,33 +425,6 @@ LLhnp.s: LLhnp.cpp.s
 LLhnp.cpp.s:
 	$(MAKE) -f CMakeFiles/LLhnp.dir/build.make CMakeFiles/LLhnp.dir/LLhnp.cpp.s
 .PHONY : LLhnp.cpp.s
-
-LLht.o: LLht.cpp.o
-
-.PHONY : LLht.o
-
-# target to build an object file
-LLht.cpp.o:
-	$(MAKE) -f CMakeFiles/LLht.dir/build.make CMakeFiles/LLht.dir/LLht.cpp.o
-.PHONY : LLht.cpp.o
-
-LLht.i: LLht.cpp.i
-
-.PHONY : LLht.i
-
-# target to preprocess a source file
-LLht.cpp.i:
-	$(MAKE) -f CMakeFiles/LLht.dir/build.make CMakeFiles/LLht.dir/LLht.cpp.i
-.PHONY : LLht.cpp.i
-
-LLht.s: LLht.cpp.s
-
-.PHONY : LLht.s
-
-# target to generate assembly for a file
-LLht.cpp.s:
-	$(MAKE) -f CMakeFiles/LLht.dir/build.make CMakeFiles/LLht.dir/LLht.cpp.s
-.PHONY : LLht.cpp.s
 
 LLprac.o: LLprac.cpp.o
 
@@ -759,12 +759,11 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... linkedlist"
+	@echo "... LLhnp"
 	@echo "... binarysearch"
 	@echo "... merge"
 	@echo "... ES"
 	@echo "... fibo"
-	@echo "... LLhnp"
-	@echo "... LLht"
 	@echo "... LLprac"
 	@echo "... heap"
 	@echo "... bisection"
@@ -772,6 +771,7 @@ help:
 	@echo "... insertionsort"
 	@echo "... gcd"
 	@echo "... stack"
+	@echo "... HW"
 	@echo "... DoubleLLtemplated"
 	@echo "... Midtermprac"
 	@echo "... DoubleLLtemplated.o"
@@ -780,12 +780,12 @@ help:
 	@echo "... ES.o"
 	@echo "... ES.i"
 	@echo "... ES.s"
+	@echo "... HW.o"
+	@echo "... HW.i"
+	@echo "... HW.s"
 	@echo "... LLhnp.o"
 	@echo "... LLhnp.i"
 	@echo "... LLhnp.s"
-	@echo "... LLht.o"
-	@echo "... LLht.i"
-	@echo "... LLht.s"
 	@echo "... LLprac.o"
 	@echo "... LLprac.i"
 	@echo "... LLprac.s"
