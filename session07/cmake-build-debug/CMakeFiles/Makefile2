@@ -65,6 +65,80 @@ CMAKE_SOURCE_DIR = /Users/connordepalma/Documents/Git/EE593/session07
 CMAKE_BINARY_DIR = /Users/connordepalma/Documents/Git/EE593/session07/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/Trie.dir
+
+# All Build rule for target.
+CMakeFiles/Trie.dir/all:
+	$(MAKE) -f CMakeFiles/Trie.dir/build.make CMakeFiles/Trie.dir/depend
+	$(MAKE) -f CMakeFiles/Trie.dir/build.make CMakeFiles/Trie.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE593/session07/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target Trie"
+.PHONY : CMakeFiles/Trie.dir/all
+
+# Include target in all.
+all: CMakeFiles/Trie.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Trie.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE593/session07/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Trie.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE593/session07/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Trie.dir/rule
+
+# Convenience name for target.
+Trie: CMakeFiles/Trie.dir/rule
+
+.PHONY : Trie
+
+# clean rule for target.
+CMakeFiles/Trie.dir/clean:
+	$(MAKE) -f CMakeFiles/Trie.dir/build.make CMakeFiles/Trie.dir/clean
+.PHONY : CMakeFiles/Trie.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Trie.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/binarytreeprac.dir
+
+# All Build rule for target.
+CMakeFiles/binarytreeprac.dir/all:
+	$(MAKE) -f CMakeFiles/binarytreeprac.dir/build.make CMakeFiles/binarytreeprac.dir/depend
+	$(MAKE) -f CMakeFiles/binarytreeprac.dir/build.make CMakeFiles/binarytreeprac.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE593/session07/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target binarytreeprac"
+.PHONY : CMakeFiles/binarytreeprac.dir/all
+
+# Include target in all.
+all: CMakeFiles/binarytreeprac.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/binarytreeprac.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE593/session07/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/binarytreeprac.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE593/session07/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/binarytreeprac.dir/rule
+
+# Convenience name for target.
+binarytreeprac: CMakeFiles/binarytreeprac.dir/rule
+
+.PHONY : binarytreeprac
+
+# clean rule for target.
+CMakeFiles/binarytreeprac.dir/clean:
+	$(MAKE) -f CMakeFiles/binarytreeprac.dir/build.make CMakeFiles/binarytreeprac.dir/clean
+.PHONY : CMakeFiles/binarytreeprac.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/binarytreeprac.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/RBTree.dir
 
 # All Build rule for target.
@@ -182,7 +256,7 @@ clean: CMakeFiles/BinaryTree.dir/clean
 CMakeFiles/session07.dir/all:
 	$(MAKE) -f CMakeFiles/session07.dir/build.make CMakeFiles/session07.dir/depend
 	$(MAKE) -f CMakeFiles/session07.dir/build.make CMakeFiles/session07.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE593/session07/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target session07"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE593/session07/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target session07"
 .PHONY : CMakeFiles/session07.dir/all
 
 # Include target in all.

@@ -1,6 +1,8 @@
 /Users/connordepalma/Documents/Git/EE593/session07/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/connordepalma/Documents/Git/EE593/session07/cmake-build-debug/CMakeFiles/RBTree.dir
+/Users/connordepalma/Documents/Git/EE593/session07/cmake-build-debug/CMakeFiles/Trie.dir
 /Users/connordepalma/Documents/Git/EE593/session07/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/connordepalma/Documents/Git/EE593/session07/cmake-build-debug/CMakeFiles/binarytreeprac.dir
+/Users/connordepalma/Documents/Git/EE593/session07/cmake-build-debug/CMakeFiles/RBTree.dir
 /Users/connordepalma/Documents/Git/EE593/session07/cmake-build-debug/CMakeFiles/Parsing.dir
 /Users/connordepalma/Documents/Git/EE593/session07/cmake-build-debug/CMakeFiles/BinaryTree.dir
 /Users/connordepalma/Documents/Git/EE593/session07/cmake-build-debug/CMakeFiles/session07.dir

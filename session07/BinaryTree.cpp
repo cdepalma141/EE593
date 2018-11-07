@@ -34,6 +34,24 @@ private:
                 }
             }
         }
+        void remove(int v){
+            if(this->val < v){
+                if(this->right != nullptr)
+                    this->right->add(v);
+                else {
+                    this->right = new Node(v, nullptr, nullptr);
+                    return;
+                }
+            }
+            else{
+                if (this->left != nullptr)
+                    this->left->add(v);
+                else{
+                    this->left = new Node(v, nullptr, nullptr);
+                    return;
+                }
+            }
+        }
 
         void inorder(){
             if(left != nullptr)
@@ -73,18 +91,18 @@ public:
 
         Node* p = root;
         while (true) {
-            if (p->val > v) {
-                if (p->left == nullptr) {
-                    p->left = new Node(v, nullptr, nullptr);
+            if (p->val < v) {
+                if (p->right == nullptr) {
+                    p->right = new Node(v, nullptr, nullptr);
                     return;
                 } else
-                    p = p->left;
+                    p = p->right;
             }
-            if (p->right == nullptr) {
-                p->right = new Node(v, nullptr, nullptr);
+            if (p->left == nullptr) {
+                p->left = new Node(v, nullptr, nullptr);
                 return;
             } else
-                p = p->right;
+                p = p->left;
         }
 
     }
@@ -130,12 +148,20 @@ public:
 int main() {
 
     BinaryTree t;
+    BinaryTree a;
+
     int d[] = {3,1,4,1,5,9,2,6,5,3,5};
 
     for (int i = 0; i < 11; i++){
-        t.addRecursive(d[i]);
+        t.add(d[i]);
     }
+    for (int i = 0; i < 11; i++){
+        a.addRecursive(d[i]);
+    }
+    a.inorder();
     t.inorder();
+    a.preorder();
     t.preorder();
+    a.postorder();
     t.postorder();
 }

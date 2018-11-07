@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Trie
+
+# Build rule for target.
+Trie: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Trie
+.PHONY : Trie
+
+# fast build rule for target.
+Trie/fast:
+	$(MAKE) -f CMakeFiles/Trie.dir/build.make CMakeFiles/Trie.dir/build
+.PHONY : Trie/fast
+
+#=============================================================================
+# Target rules for targets named binarytreeprac
+
+# Build rule for target.
+binarytreeprac: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 binarytreeprac
+.PHONY : binarytreeprac
+
+# fast build rule for target.
+binarytreeprac/fast:
+	$(MAKE) -f CMakeFiles/binarytreeprac.dir/build.make CMakeFiles/binarytreeprac.dir/build
+.PHONY : binarytreeprac/fast
+
+#=============================================================================
 # Target rules for targets named RBTree
 
 # Build rule for target.
@@ -243,6 +269,60 @@ RBTree.cpp.s:
 	$(MAKE) -f CMakeFiles/RBTree.dir/build.make CMakeFiles/RBTree.dir/RBTree.cpp.s
 .PHONY : RBTree.cpp.s
 
+Trie.o: Trie.cpp.o
+
+.PHONY : Trie.o
+
+# target to build an object file
+Trie.cpp.o:
+	$(MAKE) -f CMakeFiles/Trie.dir/build.make CMakeFiles/Trie.dir/Trie.cpp.o
+.PHONY : Trie.cpp.o
+
+Trie.i: Trie.cpp.i
+
+.PHONY : Trie.i
+
+# target to preprocess a source file
+Trie.cpp.i:
+	$(MAKE) -f CMakeFiles/Trie.dir/build.make CMakeFiles/Trie.dir/Trie.cpp.i
+.PHONY : Trie.cpp.i
+
+Trie.s: Trie.cpp.s
+
+.PHONY : Trie.s
+
+# target to generate assembly for a file
+Trie.cpp.s:
+	$(MAKE) -f CMakeFiles/Trie.dir/build.make CMakeFiles/Trie.dir/Trie.cpp.s
+.PHONY : Trie.cpp.s
+
+binarytreeprac.o: binarytreeprac.cpp.o
+
+.PHONY : binarytreeprac.o
+
+# target to build an object file
+binarytreeprac.cpp.o:
+	$(MAKE) -f CMakeFiles/binarytreeprac.dir/build.make CMakeFiles/binarytreeprac.dir/binarytreeprac.cpp.o
+.PHONY : binarytreeprac.cpp.o
+
+binarytreeprac.i: binarytreeprac.cpp.i
+
+.PHONY : binarytreeprac.i
+
+# target to preprocess a source file
+binarytreeprac.cpp.i:
+	$(MAKE) -f CMakeFiles/binarytreeprac.dir/build.make CMakeFiles/binarytreeprac.dir/binarytreeprac.cpp.i
+.PHONY : binarytreeprac.cpp.i
+
+binarytreeprac.s: binarytreeprac.cpp.s
+
+.PHONY : binarytreeprac.s
+
+# target to generate assembly for a file
+binarytreeprac.cpp.s:
+	$(MAKE) -f CMakeFiles/binarytreeprac.dir/build.make CMakeFiles/binarytreeprac.dir/binarytreeprac.cpp.s
+.PHONY : binarytreeprac.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -277,8 +357,10 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... RBTree"
+	@echo "... Trie"
 	@echo "... edit_cache"
+	@echo "... binarytreeprac"
+	@echo "... RBTree"
 	@echo "... Parsing"
 	@echo "... BinaryTree"
 	@echo "... session07"
@@ -291,6 +373,12 @@ help:
 	@echo "... RBTree.o"
 	@echo "... RBTree.i"
 	@echo "... RBTree.s"
+	@echo "... Trie.o"
+	@echo "... Trie.i"
+	@echo "... Trie.s"
+	@echo "... binarytreeprac.o"
+	@echo "... binarytreeprac.i"
+	@echo "... binarytreeprac.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
