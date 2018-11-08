@@ -115,9 +115,38 @@ public:
 
 };
 
-//class Sub : public Operator {
-//
-//};
+class Sub : public Expr {
+public:
+
+    Sub(Expr* lf, Expr* rt) : Expr(lf, rt) {}
+
+    void inorder() {
+        left->inorder();
+        cout << '-';
+        right->inorder();
+    }
+    void preorder() {
+        cout << '-';
+        left->inorder();
+        right->inorder();
+    }
+    void postorder() {
+        if(left != nullptr)
+            left->postorder();
+        if(right != nullptr)
+            right->postorder();
+        cout << '-';
+    }
+    double eval() {
+        if(left != nullptr && right != nullptr)
+            return left->eval() - right->eval();
+    }
+
+    char get(){
+        return '-';
+    }
+
+};
 
 class Mult : public Expr {
 public:
@@ -176,10 +205,18 @@ public:
 
     void insert(char v) {
         if(root == nullptr){
-            if(v == '+')
+            if(v == '+') {
                 root = new Add(nullptr, nullptr);
-            if(v == '*')
+                return;
+            }
+            else if(v == '*') {
                 root = new Mult(nullptr, nullptr);
+                return;
+            }
+            else if (v == '-') {
+                root = new Sub(nullptr, nullptr);
+                return;
+            }
         }
         else {
             root->addRecursive(v);
@@ -226,20 +263,27 @@ void Expr::addRecursive(char v) {
                 double x = stod(s);
                 this->left = new Const(x);
                 return;
-            } else if (v == '+' || v == '*') {
+            } else if (v == '+' || v == '*' || v == '-') {
                 if (v == '*') {
                     this->left = new Mult(nullptr, nullptr);
                     return;
                 }
-                if (v == '+') {
+                else if (v == '+') {
                     this->left = new Add(nullptr, nullptr);
+                    return;
+                }
+                else {
+                    this->left = new Sub(nullptr, nullptr);
                     return;
                 }
             } else {
                 this->left = new Var(v);
             }
         } else {
+            if(this->left->get() == '+' || this->left->get() == '*' || this->left->get() == '-')
                 this->left->addRecursive(v);
+            else
+                this->right->addRecursive(v);
         }
     } else {
         if (this->right == nullptr) {
@@ -248,20 +292,27 @@ void Expr::addRecursive(char v) {
                 double x = stod(s);
                 this->right = new Const(x);
                 return;
-            } else if (v == '+' || v == '*') {
+            } else if (v == '+' || v == '*' || v == '-') {
                 if (v == '*') {
                     this->right = new Mult(nullptr, nullptr);
                     return;
                 }
-                else {
+                else if (v == '+') {
                     this->right = new Add(nullptr, nullptr);
                     return;
                 }
+                else {
+                    this->right = new Sub(nullptr, nullptr);
+                    return;
+                }
             } else {
-                this->right = new Var(v);
+                    this->right = new Var(v);
             }
         } else {
+            if(this->right->get() == '+' || this->right->get() == '*' || this->right->get() == '-')
                 this->right->addRecursive(v);
+            else
+                this->left->addRecursive(v);
         }
     }
 }
@@ -308,6 +359,8 @@ int main() {
     cout << '\n';
     b.postorder();
     cout << '\n';
+    b.inorder();
+    cout << '\n';
 
 
 
@@ -315,38 +368,87 @@ int main() {
 
     char list[] = {'+','*','4','3','2'};
 
-    for(int i = 0; i < 5; i++) {
-        cout << list[i] << ' ';
-        b1.insert(list[i]);
+    stack<char> a1;
+
+    for(int i = 4; i >= 0; i--) {
+        a1.push(list[i]);
     }
 
+    showstack(a1);
+
+
     cout << '\n';
+
+    while (!a1.empty())
+    {
+        b1.insert(a1.top());
+        a1.pop();
+    }
+
     cout << b1.eval();
     cout << '\n';
     b1.postorder();
     cout << '\n';
+    b1.inorder();
+    cout << '\n';
 
 
-//    Add c;
-//
-//    Mult g;
-//
-//    Const d(4);
-//
-//    Const e(3);
-//
-//    Const f(2);
-//
-//    c.left = &d;
-//
-//    c.right = &e;
-//
-//    g.right = &c;
-//
-//    g.left = &f;
-//
-//    string s{'9','\0'};
-//    cout << stod(s);
+    BinaryTree b2;
+
+    char list1[] = {'*','+','b','a','-','x','x'};
+
+    stack<char> a2;
+
+    for(int i = 6; i >= 0; i--) {
+        a2.push(list1[i]);
+    }
+
+    showstack(a2);
+
+
+    cout << '\n';
+
+    while (!a2.empty())
+    {
+        b2.insert(a2.top());
+        a2.pop();
+    }
+
+     cout << b2.eval();
+    cout << '\n';
+    b2.postorder();
+    cout << '\n';
+    b2.inorder();
+    cout << '\n';
+
+
+    BinaryTree b3;
+
+    char list2[] = {'*','1','x'};
+
+    stack<char> a3;
+
+    for(int i = 2; i >= 0; i--) {
+        a3.push(list2[i]);
+    }
+
+    showstack(a3);
+
+
+    cout << '\n';
+
+    while (!a3.empty())
+    {
+        b3.insert(a3.top());
+        a3.pop();
+    }
+
+    cout << b3.eval();
+    cout << '\n';
+    b3.postorder();
+    cout << '\n';
+    b3.inorder();
+    cout << '\n';
 
 
 
