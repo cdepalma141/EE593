@@ -38,7 +38,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4f130e6-e795-42d0-b809-c0f84dc110f5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Parsing.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Parsing.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Parsing.dir/Parsing.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Parsing.dir/Parsing.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/session07.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/session07.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parsing" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Parsing" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/session07" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/session07" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../session8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session8/cmake-build-debug/CMakeFiles/linearhashprac.dir/linearhashprac.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../session8/cmake-build-debug/CMakeFiles/linearhashprac.dir/linearhashprac.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session8/cmake-build-debug/linearhashprac" beforeDir="false" afterPath="$PROJECT_DIR$/../session8/cmake-build-debug/linearhashprac" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session8/linearhashprac.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../session8/linearhashprac.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,36 +62,41 @@
     <session id="372942663">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="6" />
+          <entry key="__split_buffer" value="2" />
+          <entry key="cpp" value="8" />
           <entry key="dat" value="2" />
+          <entry key="deque" value="1" />
+          <entry key="stack" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="6" />
+          <entry key="ObjectiveC" value="12" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="13321" />
+          <entry key="cpp" value="16386" />
           <entry key="dat" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="13321" />
+          <entry key="ObjectiveC" value="16386" />
           <entry key="PLAIN_TEXT" value="14" />
         </counts>
       </usages-collector>
@@ -97,7 +112,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BinaryTree.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
+            <state relative-caret-position="2160">
               <caret line="144" column="2" selection-start-line="144" selection-start-column="2" selection-end-line="144" selection-end-column="2" />
             </state>
           </provider>
@@ -106,8 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hw8inp.dat">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -115,8 +130,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Parsing.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="412" selection-start-line="412" selection-end-line="412" />
+            <state relative-caret-position="258">
+              <caret line="117" column="20" selection-start-line="117" selection-start-column="20" selection-end-line="117" selection-end-column="20" />
               <folding>
                 <element signature="e#48#67#0" expanded="true" />
               </folding>
@@ -124,7 +139,23 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>9</find>
+      <find>1</find>
+      <find>inorder</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -137,6 +168,7 @@
         <option value="$PROJECT_DIR$/Trie.cpp" />
         <option value="$PROJECT_DIR$/binarytreeprac.cpp" />
         <option value="$PROJECT_DIR$/BinaryTree.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Parsing.cpp" />
       </list>
     </option>
@@ -156,7 +188,20 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="session07" type="b2602c69:ProjectViewProjectNode" />
+              <item name="session07" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -243,24 +288,27 @@
       <workItem from="1541349286860" duration="3508000" />
       <workItem from="1541456435845" duration="10738000" />
       <workItem from="1541557751022" duration="3578000" />
-      <workItem from="1541638675850" duration="6601000" />
+      <workItem from="1541638675850" duration="6881000" />
+      <workItem from="1541726552017" duration="765000" />
+      <workItem from="1541880876568" duration="17474000" />
+      <workItem from="1541906939002" duration="202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49013000" />
+    <option name="totallyTimeSpent" value="67734000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25885227" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26190478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32959184" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.53367347" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32959184" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -270,7 +318,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CMake" order="13" />
+      <window_info anchor="bottom" id="CMake" order="13" weight="0.32959184" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -311,16 +359,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Parsing.cpp</url>
-          <line>412</line>
-          <option name="timeStamp" value="16" />
+          <line>373</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Parsing.cpp</url>
+          <line>374</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/binarytreeprac.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -352,27 +402,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/deque">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="1401" selection-start-line="1401" selection-end-line="1401" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/stack">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="106" column="27" selection-start-line="106" selection-start-column="27" selection-end-line="106" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/BinaryTree.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
+        <state relative-caret-position="2160">
           <caret line="144" column="2" selection-start-line="144" selection-start-column="2" selection-end-line="144" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hw8inp.dat">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Parsing.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="412" selection-start-line="412" selection-end-line="412" />
+        <state relative-caret-position="258">
+          <caret line="117" column="20" selection-start-line="117" selection-start-column="20" selection-end-line="117" selection-end-column="20" />
           <folding>
             <element signature="e#48#67#0" expanded="true" />
           </folding>

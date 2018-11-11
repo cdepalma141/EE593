@@ -62,13 +62,13 @@ public:
         }
     }
 
-//    Hashmaplinear& operator =(const Hashmaplinear& orig) {
-//        Hashmaplinear copy(orig);
-//        size = copy.size;
-//        used = copy.used;
-//        swap(table, copy.table);
-//        return *this;
-//    }
+    Hashmaplinear& operator =(const Hashmaplinear& orig) {
+        Hashmaplinear copy(orig);
+        size = copy.size;
+        used = copy.used;
+        swap(table, copy.table);
+        return *this;
+    }
 
     double& operator [](const string& key) {
 
