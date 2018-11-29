@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/connordepalma/CLionProjects/tridiagonal/tridag.cpp
+iostream
+-
+vector
+-
+iomanip
+-
+cmath
+-
+fstream
+-
+sstream
+-
+
