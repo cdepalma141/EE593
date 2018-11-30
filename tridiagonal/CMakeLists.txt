@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(tridiagonal main.cpp)
 
-add_executable(tridag tridag.cpp)
+add_executable(HW9_SolveTriSys HW9_SolveTriSys.cpp)

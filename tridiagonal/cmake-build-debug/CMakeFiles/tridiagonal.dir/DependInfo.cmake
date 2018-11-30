@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/connordepalma/CLionProjects/tridiagonal/main.cpp" "/Users/connordepalma/CLionProjects/tridiagonal/cmake-build-debug/CMakeFiles/tridiagonal.dir/main.cpp.o"
+  "/Users/connordepalma/Documents/Git/EE593/tridiagonal/main.cpp" "/Users/connordepalma/Documents/Git/EE593/tridiagonal/cmake-build-debug/CMakeFiles/tridiagonal.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

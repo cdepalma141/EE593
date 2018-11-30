@@ -1,4 +1,4 @@
-"/Users/connordepalma/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.5107.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/connordepalma/CLionProjects/tridiagonal
+"/Users/connordepalma/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.5107.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/connordepalma/Documents/Git/EE593/tridiagonal
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/connordepalma/CLionProjects/tridiagonal/cmake-build-debug
+-- Build files have been written to: /Users/connordepalma/Documents/Git/EE593/tridiagonal/cmake-build-debug

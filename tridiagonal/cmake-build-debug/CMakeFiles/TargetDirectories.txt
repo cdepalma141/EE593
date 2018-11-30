@@ -1,4 +1,4 @@
-/Users/connordepalma/CLionProjects/tridiagonal/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/connordepalma/CLionProjects/tridiagonal/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/connordepalma/CLionProjects/tridiagonal/cmake-build-debug/CMakeFiles/tridag.dir
-/Users/connordepalma/CLionProjects/tridiagonal/cmake-build-debug/CMakeFiles/tridiagonal.dir
+/Users/connordepalma/Documents/Git/EE593/tridiagonal/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/connordepalma/Documents/Git/EE593/tridiagonal/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/connordepalma/Documents/Git/EE593/tridiagonal/cmake-build-debug/CMakeFiles/HW9_SolveTriSys.dir
+/Users/connordepalma/Documents/Git/EE593/tridiagonal/cmake-build-debug/CMakeFiles/tridiagonal.dir

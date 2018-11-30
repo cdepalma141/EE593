@@ -48,10 +48,10 @@ RM = "/Users/connordepalma/Library/Application Support/JetBrains/Toolbox/apps/CL
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/connordepalma/CLionProjects/tridiagonal
+CMAKE_SOURCE_DIR = /Users/connordepalma/Documents/Git/EE593/tridiagonal
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/connordepalma/CLionProjects/tridiagonal/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/connordepalma/Documents/Git/EE593/tridiagonal/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/CLionProjects/tridiagonal/cmake-build-debug/CMakeFiles /Users/connordepalma/CLionProjects/tridiagonal/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE593/tridiagonal/cmake-build-debug/CMakeFiles /Users/connordepalma/Documents/Git/EE593/tridiagonal/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/CLionProjects/tridiagonal/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE593/tridiagonal/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named tridag
+# Target rules for targets named HW9_SolveTriSys
 
 # Build rule for target.
-tridag: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tridag
-.PHONY : tridag
+HW9_SolveTriSys: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HW9_SolveTriSys
+.PHONY : HW9_SolveTriSys
 
 # fast build rule for target.
-tridag/fast:
-	$(MAKE) -f CMakeFiles/tridag.dir/build.make CMakeFiles/tridag.dir/build
-.PHONY : tridag/fast
+HW9_SolveTriSys/fast:
+	$(MAKE) -f CMakeFiles/HW9_SolveTriSys.dir/build.make CMakeFiles/HW9_SolveTriSys.dir/build
+.PHONY : HW9_SolveTriSys/fast
 
 #=============================================================================
 # Target rules for targets named tridiagonal
@@ -135,6 +135,33 @@ tridiagonal: cmake_check_build_system
 tridiagonal/fast:
 	$(MAKE) -f CMakeFiles/tridiagonal.dir/build.make CMakeFiles/tridiagonal.dir/build
 .PHONY : tridiagonal/fast
+
+HW9_SolveTriSys.o: HW9_SolveTriSys.cpp.o
+
+.PHONY : HW9_SolveTriSys.o
+
+# target to build an object file
+HW9_SolveTriSys.cpp.o:
+	$(MAKE) -f CMakeFiles/HW9_SolveTriSys.dir/build.make CMakeFiles/HW9_SolveTriSys.dir/HW9_SolveTriSys.cpp.o
+.PHONY : HW9_SolveTriSys.cpp.o
+
+HW9_SolveTriSys.i: HW9_SolveTriSys.cpp.i
+
+.PHONY : HW9_SolveTriSys.i
+
+# target to preprocess a source file
+HW9_SolveTriSys.cpp.i:
+	$(MAKE) -f CMakeFiles/HW9_SolveTriSys.dir/build.make CMakeFiles/HW9_SolveTriSys.dir/HW9_SolveTriSys.cpp.i
+.PHONY : HW9_SolveTriSys.cpp.i
+
+HW9_SolveTriSys.s: HW9_SolveTriSys.cpp.s
+
+.PHONY : HW9_SolveTriSys.s
+
+# target to generate assembly for a file
+HW9_SolveTriSys.cpp.s:
+	$(MAKE) -f CMakeFiles/HW9_SolveTriSys.dir/build.make CMakeFiles/HW9_SolveTriSys.dir/HW9_SolveTriSys.cpp.s
+.PHONY : HW9_SolveTriSys.cpp.s
 
 main.o: main.cpp.o
 
@@ -163,33 +190,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/tridiagonal.dir/build.make CMakeFiles/tridiagonal.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-tridag.o: tridag.cpp.o
-
-.PHONY : tridag.o
-
-# target to build an object file
-tridag.cpp.o:
-	$(MAKE) -f CMakeFiles/tridag.dir/build.make CMakeFiles/tridag.dir/tridag.cpp.o
-.PHONY : tridag.cpp.o
-
-tridag.i: tridag.cpp.i
-
-.PHONY : tridag.i
-
-# target to preprocess a source file
-tridag.cpp.i:
-	$(MAKE) -f CMakeFiles/tridag.dir/build.make CMakeFiles/tridag.dir/tridag.cpp.i
-.PHONY : tridag.cpp.i
-
-tridag.s: tridag.cpp.s
-
-.PHONY : tridag.s
-
-# target to generate assembly for a file
-tridag.cpp.s:
-	$(MAKE) -f CMakeFiles/tridag.dir/build.make CMakeFiles/tridag.dir/tridag.cpp.s
-.PHONY : tridag.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -198,14 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... tridag"
+	@echo "... HW9_SolveTriSys"
 	@echo "... tridiagonal"
+	@echo "... HW9_SolveTriSys.o"
+	@echo "... HW9_SolveTriSys.i"
+	@echo "... HW9_SolveTriSys.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... tridag.o"
-	@echo "... tridag.i"
-	@echo "... tridag.s"
 .PHONY : help
 
 

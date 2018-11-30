@@ -59,45 +59,45 @@ RM = "/Users/connordepalma/Library/Application Support/JetBrains/Toolbox/apps/CL
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/connordepalma/CLionProjects/tridiagonal
+CMAKE_SOURCE_DIR = /Users/connordepalma/Documents/Git/EE593/tridiagonal
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/connordepalma/CLionProjects/tridiagonal/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/connordepalma/Documents/Git/EE593/tridiagonal/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/tridag.dir
+# Target rules for target CMakeFiles/HW9_SolveTriSys.dir
 
 # All Build rule for target.
-CMakeFiles/tridag.dir/all:
-	$(MAKE) -f CMakeFiles/tridag.dir/build.make CMakeFiles/tridag.dir/depend
-	$(MAKE) -f CMakeFiles/tridag.dir/build.make CMakeFiles/tridag.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/CLionProjects/tridiagonal/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target tridag"
-.PHONY : CMakeFiles/tridag.dir/all
+CMakeFiles/HW9_SolveTriSys.dir/all:
+	$(MAKE) -f CMakeFiles/HW9_SolveTriSys.dir/build.make CMakeFiles/HW9_SolveTriSys.dir/depend
+	$(MAKE) -f CMakeFiles/HW9_SolveTriSys.dir/build.make CMakeFiles/HW9_SolveTriSys.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE593/tridiagonal/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target HW9_SolveTriSys"
+.PHONY : CMakeFiles/HW9_SolveTriSys.dir/all
 
 # Include target in all.
-all: CMakeFiles/tridag.dir/all
+all: CMakeFiles/HW9_SolveTriSys.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/tridag.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/CLionProjects/tridiagonal/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tridag.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/CLionProjects/tridiagonal/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/tridag.dir/rule
+CMakeFiles/HW9_SolveTriSys.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE593/tridiagonal/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/HW9_SolveTriSys.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE593/tridiagonal/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/HW9_SolveTriSys.dir/rule
 
 # Convenience name for target.
-tridag: CMakeFiles/tridag.dir/rule
+HW9_SolveTriSys: CMakeFiles/HW9_SolveTriSys.dir/rule
 
-.PHONY : tridag
-
-# clean rule for target.
-CMakeFiles/tridag.dir/clean:
-	$(MAKE) -f CMakeFiles/tridag.dir/build.make CMakeFiles/tridag.dir/clean
-.PHONY : CMakeFiles/tridag.dir/clean
+.PHONY : HW9_SolveTriSys
 
 # clean rule for target.
-clean: CMakeFiles/tridag.dir/clean
+CMakeFiles/HW9_SolveTriSys.dir/clean:
+	$(MAKE) -f CMakeFiles/HW9_SolveTriSys.dir/build.make CMakeFiles/HW9_SolveTriSys.dir/clean
+.PHONY : CMakeFiles/HW9_SolveTriSys.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/HW9_SolveTriSys.dir/clean
 
 .PHONY : clean
 
@@ -108,7 +108,7 @@ clean: CMakeFiles/tridag.dir/clean
 CMakeFiles/tridiagonal.dir/all:
 	$(MAKE) -f CMakeFiles/tridiagonal.dir/build.make CMakeFiles/tridiagonal.dir/depend
 	$(MAKE) -f CMakeFiles/tridiagonal.dir/build.make CMakeFiles/tridiagonal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/CLionProjects/tridiagonal/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target tridiagonal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/connordepalma/Documents/Git/EE593/tridiagonal/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target tridiagonal"
 .PHONY : CMakeFiles/tridiagonal.dir/all
 
 # Include target in all.
@@ -118,9 +118,9 @@ all: CMakeFiles/tridiagonal.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tridiagonal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/CLionProjects/tridiagonal/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE593/tridiagonal/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tridiagonal.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/CLionProjects/tridiagonal/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connordepalma/Documents/Git/EE593/tridiagonal/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/tridiagonal.dir/rule
 
 # Convenience name for target.

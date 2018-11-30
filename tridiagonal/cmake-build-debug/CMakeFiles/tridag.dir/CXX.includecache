@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/connordepalma/CLionProjects/tridiagonal/tridag.cpp
+/Users/connordepalma/Documents/Git/EE593/tridiagonal/tridag.cpp
 iostream
 -
 vector

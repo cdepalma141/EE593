@@ -50,6 +50,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/tridag.dir/DependInfo.cmake"
+  "CMakeFiles/HW9_SolveTriSys.dir/DependInfo.cmake"
   "CMakeFiles/tridiagonal.dir/DependInfo.cmake"
   )

@@ -6,7 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/Users/connordepalma/CLionProjects/tridiagonal/main.cpp
+/Users/connordepalma/Documents/Git/EE593/tridiagonal/HW9_SolveTriSys.cpp
 iostream
+-
+vector
+-
+iomanip
+-
+cmath
+-
+fstream
+-
+sstream
 -
 
