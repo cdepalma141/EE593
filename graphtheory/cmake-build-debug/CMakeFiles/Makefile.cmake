@@ -50,6 +50,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/boyermoorestring.dir/DependInfo.cmake"
+  "CMakeFiles/graphlist.dir/DependInfo.cmake"
+  "CMakeFiles/HeapPermutation.dir/DependInfo.cmake"
   "CMakeFiles/bellmanford.dir/DependInfo.cmake"
   "CMakeFiles/graphtheory.dir/DependInfo.cmake"
   )

@@ -31,7 +31,7 @@ public:
 
     }
 
-    void insert(string word) {
+    void insert(const string& word) {
         Node * p = root;
 
 //        for(int i = 0; i < 1; i++){
@@ -62,7 +62,7 @@ public:
 
     }
 
-    bool hasWord(string word) {
+    bool hasWord(const string& word) {
         Node* p = root;
         for (int i = 0; i < word.length(); i++){
            // cout << p->isWord << '\n';
@@ -76,7 +76,7 @@ public:
         return p->isWord;
     }
 
-    bool prefix(string word) {
+    bool prefix(const string& word) {
         Node* p = root;
         for (int i = 0; i < word.length(); i++){
             //cout << p->isWord << '\n';

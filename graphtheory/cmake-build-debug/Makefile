@@ -111,6 +111,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named boyermoorestring
+
+# Build rule for target.
+boyermoorestring: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 boyermoorestring
+.PHONY : boyermoorestring
+
+# fast build rule for target.
+boyermoorestring/fast:
+	$(MAKE) -f CMakeFiles/boyermoorestring.dir/build.make CMakeFiles/boyermoorestring.dir/build
+.PHONY : boyermoorestring/fast
+
+#=============================================================================
+# Target rules for targets named graphlist
+
+# Build rule for target.
+graphlist: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 graphlist
+.PHONY : graphlist
+
+# fast build rule for target.
+graphlist/fast:
+	$(MAKE) -f CMakeFiles/graphlist.dir/build.make CMakeFiles/graphlist.dir/build
+.PHONY : graphlist/fast
+
+#=============================================================================
+# Target rules for targets named HeapPermutation
+
+# Build rule for target.
+HeapPermutation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HeapPermutation
+.PHONY : HeapPermutation
+
+# fast build rule for target.
+HeapPermutation/fast:
+	$(MAKE) -f CMakeFiles/HeapPermutation.dir/build.make CMakeFiles/HeapPermutation.dir/build
+.PHONY : HeapPermutation/fast
+
+#=============================================================================
 # Target rules for targets named bellmanford
 
 # Build rule for target.
@@ -135,6 +174,33 @@ graphtheory: cmake_check_build_system
 graphtheory/fast:
 	$(MAKE) -f CMakeFiles/graphtheory.dir/build.make CMakeFiles/graphtheory.dir/build
 .PHONY : graphtheory/fast
+
+HeapPermutation.o: HeapPermutation.cpp.o
+
+.PHONY : HeapPermutation.o
+
+# target to build an object file
+HeapPermutation.cpp.o:
+	$(MAKE) -f CMakeFiles/HeapPermutation.dir/build.make CMakeFiles/HeapPermutation.dir/HeapPermutation.cpp.o
+.PHONY : HeapPermutation.cpp.o
+
+HeapPermutation.i: HeapPermutation.cpp.i
+
+.PHONY : HeapPermutation.i
+
+# target to preprocess a source file
+HeapPermutation.cpp.i:
+	$(MAKE) -f CMakeFiles/HeapPermutation.dir/build.make CMakeFiles/HeapPermutation.dir/HeapPermutation.cpp.i
+.PHONY : HeapPermutation.cpp.i
+
+HeapPermutation.s: HeapPermutation.cpp.s
+
+.PHONY : HeapPermutation.s
+
+# target to generate assembly for a file
+HeapPermutation.cpp.s:
+	$(MAKE) -f CMakeFiles/HeapPermutation.dir/build.make CMakeFiles/HeapPermutation.dir/HeapPermutation.cpp.s
+.PHONY : HeapPermutation.cpp.s
 
 bellmanford.o: bellmanford.cpp.o
 
@@ -162,6 +228,60 @@ bellmanford.s: bellmanford.cpp.s
 bellmanford.cpp.s:
 	$(MAKE) -f CMakeFiles/bellmanford.dir/build.make CMakeFiles/bellmanford.dir/bellmanford.cpp.s
 .PHONY : bellmanford.cpp.s
+
+boyermoorestring.o: boyermoorestring.cpp.o
+
+.PHONY : boyermoorestring.o
+
+# target to build an object file
+boyermoorestring.cpp.o:
+	$(MAKE) -f CMakeFiles/boyermoorestring.dir/build.make CMakeFiles/boyermoorestring.dir/boyermoorestring.cpp.o
+.PHONY : boyermoorestring.cpp.o
+
+boyermoorestring.i: boyermoorestring.cpp.i
+
+.PHONY : boyermoorestring.i
+
+# target to preprocess a source file
+boyermoorestring.cpp.i:
+	$(MAKE) -f CMakeFiles/boyermoorestring.dir/build.make CMakeFiles/boyermoorestring.dir/boyermoorestring.cpp.i
+.PHONY : boyermoorestring.cpp.i
+
+boyermoorestring.s: boyermoorestring.cpp.s
+
+.PHONY : boyermoorestring.s
+
+# target to generate assembly for a file
+boyermoorestring.cpp.s:
+	$(MAKE) -f CMakeFiles/boyermoorestring.dir/build.make CMakeFiles/boyermoorestring.dir/boyermoorestring.cpp.s
+.PHONY : boyermoorestring.cpp.s
+
+graphlist.o: graphlist.cpp.o
+
+.PHONY : graphlist.o
+
+# target to build an object file
+graphlist.cpp.o:
+	$(MAKE) -f CMakeFiles/graphlist.dir/build.make CMakeFiles/graphlist.dir/graphlist.cpp.o
+.PHONY : graphlist.cpp.o
+
+graphlist.i: graphlist.cpp.i
+
+.PHONY : graphlist.i
+
+# target to preprocess a source file
+graphlist.cpp.i:
+	$(MAKE) -f CMakeFiles/graphlist.dir/build.make CMakeFiles/graphlist.dir/graphlist.cpp.i
+.PHONY : graphlist.cpp.i
+
+graphlist.s: graphlist.cpp.s
+
+.PHONY : graphlist.s
+
+# target to generate assembly for a file
+graphlist.cpp.s:
+	$(MAKE) -f CMakeFiles/graphlist.dir/build.make CMakeFiles/graphlist.dir/graphlist.cpp.s
+.PHONY : graphlist.cpp.s
 
 main.o: main.cpp.o
 
@@ -197,12 +317,24 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... boyermoorestring"
+	@echo "... graphlist"
 	@echo "... edit_cache"
+	@echo "... HeapPermutation"
 	@echo "... bellmanford"
 	@echo "... graphtheory"
+	@echo "... HeapPermutation.o"
+	@echo "... HeapPermutation.i"
+	@echo "... HeapPermutation.s"
 	@echo "... bellmanford.o"
 	@echo "... bellmanford.i"
 	@echo "... bellmanford.s"
+	@echo "... boyermoorestring.o"
+	@echo "... boyermoorestring.i"
+	@echo "... boyermoorestring.s"
+	@echo "... graphlist.o"
+	@echo "... graphlist.i"
+	@echo "... graphlist.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
