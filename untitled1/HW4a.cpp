@@ -371,7 +371,7 @@ public:
 int main() {
     // for homework n=16
     ConvexHull ch(16); // create a 16x16 grid of GrowArray
-    ch.read("convexhullpoints.dat"); //I needed full absolute path for mine to work in CLion
+    ch.read("/Users/connordepalma/Documents/Git/EE593/untitled1/convexhullpoints.dat"); //I needed full absolute path for mine to work in CLion
     ch.printAllListSizes(); // tell us how many are in each list
     ch.printMinMax(); // print minx, maxx, miny, maxy for the entire dataset
     ch.printPerimeterClockWiseOrder(); // p1,p2,p3,p4, p8,p12,p16...

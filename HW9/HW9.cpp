@@ -291,8 +291,8 @@ public:
 int main() {
     Dict D;
 
-    D.read("C:\\Users\\cdepalma\\CLionProjects\\Hashmap\\dict.txt");
+    D.read("/Users/connordepalma/Documents/Git/EE593/HW9/dict.txt");
 
-    D.find("zymosimeter");
+    D.find("phaneroglossete");
 
 }
