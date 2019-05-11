@@ -311,7 +311,7 @@ int main(){
 
     S.makeCubics(); //gets point values from equations and outputs x(t) values for each segment
 
-    //S.makeCSVs(); //enable if you want to generate csv files to view the charts as described at the beginning
+    S.makeCSVs(); //enable if you want to generate csv files to view the charts as described at the beginning
 
 
 }
