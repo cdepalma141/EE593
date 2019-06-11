@@ -293,6 +293,6 @@ int main() {
 
     D.read("/Users/connordepalma/Documents/Git/EE593/HW9/dict.txt");
 
-    D.find("phaneroglossete");
+    D.find("arteriodiastasis");
 
 }
